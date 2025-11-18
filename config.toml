@@ -1,3 +1,8 @@
+baseURL = "https://mamun05.github.io/"
+languageCode = "en-us"
+title = "Mamun's Blog"
+# theme = "nostyleplease"  # Commented out since we're using the theme files directly
+
 [module]
   [module.hugoVersion]
     extended=true
@@ -29,6 +34,8 @@
     ordered = false
 
 [params]
+  author = "Mamun"
+  description = "Personal blog and portfolio"
   [params.theme_config]
     appearance = "auto"
     back_home_text = ".."
