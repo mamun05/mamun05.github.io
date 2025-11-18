@@ -5,11 +5,7 @@ img = "/images/headshot.jpg"
 draft = false
 +++
 
-Welcome to my personal blog and portfolio! I'm Abdullah Al Mamun, a passionate developer and technology enthusiast. 
-
-This is where I share my thoughts, projects, and experiences in the world of technology and software development.
-
-Feel free to explore my posts and get in touch if you'd like to connect.
+I am a Ph.D. candidate at the Department of Computer Science, Purdue University. My research interest is in the area of Database Systems+Machine Learning (ML): "ML for Systems" and "Systems for ML". My current research is in the area of "ML for Systems", particularly focusing on Learned Multi- and High-dimensional Index Structures. Previously, I was involved in a research project on In-Memory Graph-Relational Data Systems. Additionally, I conducted research on Anomaly Detection from sensor data streams during my graduate studies at Memorial University of Newfoundland, Canada.
 
 ---
 
