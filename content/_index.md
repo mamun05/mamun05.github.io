@@ -1,7 +1,7 @@
 +++
 title =  "Abdullah Al Mamun"
 date = 2025-11-18T21:30:04+08:00
-img = "/images/headshot.jpg"
+img = "/images/abdullah_image.jpg"
 draft = false
 +++
 
