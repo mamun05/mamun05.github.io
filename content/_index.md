@@ -21,15 +21,22 @@ My current research is in the area of "ML for Systems", particularly focusing on
 
 ## Publications
 
-1. Al-Mamun, Abdullah, Hao Wu, Qiyang He, Jianguo Wang, and Walid G. Aref. ["A survey of learned indexes for the multi-dimensional space."](https://dl.acm.org/doi/full/10.1145/3768575) ACM Computing Surveys (CSUR, 2025). 
+**Ph.D. Thesis-related**
 
-2. Al-Mamun, Abdullah, Jianguo Wang, and Walid G. Aref. ["Learned Indexes From the One-dimensional to the Multi-dimensional Spaces: Challenges, Techniques, and Opportunities."](https://dl.acm.org/doi/abs/10.1145/3722212.3725639) In Companion of the 2025 International Conference on Management of Data (SIGMOD), pp. 788-796. 2025. 
+- Abdullah Al-Mamun, Hao Wu, Qiyang He, Jianguo Wang, and Walid G. Aref. ["A survey of learned indexes for the multi-dimensional space."](https://dl.acm.org/doi/full/10.1145/3768575) ACM Computing Surveys (CSUR, 2025). 
 
-3. <strong>Al-Mamun, Abdullah</strong>, Ch Md Rakin Haider, and Walid G. Aref. "Query Processing Tradeoffs over an ML-Enhanced R-tree." (To appear in the proceedings of the <strong>GeoAI@SIGSPATIAL</strong>, 2025). 
+- Abdullah Al-Mamun, Jianguo Wang, and Walid G. Aref. ["Learned Indexes From the One-dimensional to the Multi-dimensional Spaces: Challenges, Techniques, and Opportunities."](https://dl.acm.org/doi/abs/10.1145/3722212.3725639) In Companion of the 2025 International Conference on Management of Data (SIGMOD), pp. 788-796. 2025. 
 
-4. Al-Mamun, Abdullah, Haider, Ch Md Rakin, Jianguo Wang, and Walid G. Aref. ["The “AI+ R”-tree: An Instance-optimized R-tree."](https://ieeexplore.ieee.org/abstract/document/9861112) In 2022 23rd IEEE International Conference on Mobile Data Management (MDM), pp. 9-18. IEEE, 2022. 
+- Abdullah Al-Mamun, Ch Md Rakin Haider, and Walid G. Aref. "Query Processing Tradeoffs over an ML-Enhanced R-tree." (To appear in the proceedings of the GeoAI@SIGSPATIAL, 2025). 
 
-5. Al-Mamun, Abdullah, Hao Wu, and Walid G. Aref. ["A tutorial on learned multi-dimensional indexes."](https://dl.acm.org/doi/abs/10.1145/3397536.3426358) In Proceedings of the 28th International Conference on Advances in Geographic Information Systems (SIGSPATIAL), pp. 1-4. 2020.
+- Abdullah Al-Mamun, Haider, Ch Md Rakin, Jianguo Wang, and Walid G. Aref. ["The “AI+ R”-tree: An Instance-optimized R-tree."](https://ieeexplore.ieee.org/abstract/document/9861112) In 2022 23rd IEEE International Conference on Mobile Data Management (MDM), pp. 9-18. IEEE, 2022. 
+
+- Abdullah Al-Mamun, Hao Wu, and Walid G. Aref. ["A tutorial on learned multi-dimensional indexes."](https://dl.acm.org/doi/abs/10.1145/3397536.3426358) In Proceedings of the 28th International Conference on Advances in Geographic Information Systems (SIGSPATIAL), pp. 1-4. 2020.
+
+**Others**
+
+- Abdullah Al-Mamun, Antonina Kolokolova, Dan Brake. ["Detecting Contextual Anomalies from Time-Changing Sensor Data Streams."](https://aaltodoc.aalto.fi/server/api/core/bitstreams/cc7d9835-8c31-4001-852d-dcb00ebca518/content#page=17) In Proceedings of the Doctoral Consortium of the 25th ECML PKDD, p.13, 2015.
+
 
 ## Education
 
