@@ -22,17 +22,17 @@ Ph.D. in Computer Science, Purdue University, USA (expected graduation year: 202
 
 M.Sc. in Computer Science, Memorial University of Newfoundland, Canada (2016)
 
-B.Sc. in Computer Science, Islamic University Of Technology, Bangladesh (2009)
+B.Sc. in Computer Science, Islamic University of Technology, Bangladesh (2009)
 
 ## Publications:
 
 1. <strong>Al-Mamun, Abdullah</strong>, Ch Md Rakin Haider, and Walid G. Aref. "Query Processing Tradeoffs over an ML-Enhanced R-tree." (To appear in the proceedings of the <strong>GeoAI@SIGSPATIAL</strong>, 2025). 
 
-2. Al-Mamun, Abdullah, Jianguo Wang, and Walid G. Aref. "Learned Indexes From the One-dimensional to the Multi-dimensional Spaces: Challenges, Techniques, and Opportunities." In Companion of the 2025 International Conference on Management of Data (SIGMOD), pp. 788-796. 2025. 
+2. Al-Mamun, Abdullah, Jianguo Wang, and Walid G. Aref. ["Learned Indexes From the One-dimensional to the Multi-dimensional Spaces: Challenges, Techniques, and Opportunities."](https://dl.acm.org/doi/abs/10.1145/3722212.3725639) In Companion of the 2025 International Conference on Management of Data (SIGMOD), pp. 788-796. 2025. 
 
-3. Al-Mamun, Abdullah, Hao Wu, Qiyang He, Jianguo Wang, and Walid G. Aref. "A survey of learned indexes for the multi-dimensional space." ACM Computing Surveys (CSUR, 2025). 
+3. Al-Mamun, Abdullah, Hao Wu, Qiyang He, Jianguo Wang, and Walid G. Aref. ["A survey of learned indexes for the multi-dimensional space."](https://dl.acm.org/doi/full/10.1145/3768575) ACM Computing Surveys (CSUR, 2025). 
 
-4. Al-Mamun, Abdullah, Haider, Ch Md Rakin, Jianguo Wang, and Walid G. Aref. "The “AI+ R”-tree: An Instance-optimized R-tree." In 2022 23rd IEEE International Conference on Mobile Data Management (MDM), pp. 9-18. IEEE, 2022. 
+4. Al-Mamun, Abdullah, Haider, Ch Md Rakin, Jianguo Wang, and Walid G. Aref. ["The “AI+ R”-tree: An Instance-optimized R-tree."](https://ieeexplore.ieee.org/abstract/document/9861112) In 2022 23rd IEEE International Conference on Mobile Data Management (MDM), pp. 9-18. IEEE, 2022. 
 
-5. Al-Mamun, Abdullah, Hao Wu, and Walid G. Aref. "A tutorial on learned multi-dimensional indexes." In Proceedings of the 28th International Conference on Advances in Geographic Information Systems (SIGSPATIAL), pp. 1-4. 2020.
+5. Al-Mamun, Abdullah, Hao Wu, and Walid G. Aref. ["A tutorial on learned multi-dimensional indexes."](https://dl.acm.org/doi/abs/10.1145/3397536.3426358) In Proceedings of the 28th International Conference on Advances in Geographic Information Systems (SIGSPATIAL), pp. 1-4. 2020.
 
