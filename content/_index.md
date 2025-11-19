@@ -39,3 +39,28 @@ B.Sc. in Computer Science, Islamic University of Technology, Bangladesh (2009)
 
 5. Al-Mamun, Abdullah, Hao Wu, and Walid G. Aref. ["A tutorial on learned multi-dimensional indexes."](https://dl.acm.org/doi/abs/10.1145/3397536.3426358) In Proceedings of the 28th International Conference on Advances in Geographic Information Systems (SIGSPATIAL), pp. 1-4. 2020.
 
+## Teaching
+
+**As an Instructor**
+
+CS348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-programs/courses/2023_spring_courses.html)) 
+
+- I became an instructor through a highly selective teaching fellowship program that offers distinguished TAs the opportunity to teach an undergraduate course. 
+
+**As a Graduate Teaching Assistant**
+
+-CS 448: [Introduction to Relational Database Systems Implementation](https://selfservice.mypurdue.purdue.edu/prod/bzwsrch.p_catalog_detail?term=202320&subject=CS&cnbr=44800&enhanced=Y)
+
+-CS 348: [Information Systems](https://selfservice.mypurdue.purdue.edu/prod/bzwsrch.p_catalog_detail?term=202320&subject=CS&cnbr=34800&enhanced=Y)
+
+## Awards and Honors
+
+-Summer 2025: Microsoft Fellowship (full) to attend the EDBT'25 Summer School on AI & Data Management.
+
+-Fall 2022-Spring 2023: Graduate Teaching Fellow, Department of Computer Science, Purdue University.
+
+-Spring 2023: Graduate Teaching Award, Department of Computer Science, Purdue University.
+
+-Summer 2018: Summer Research Grant, Purdue University.
+
+-2015: Fellow of the School of Graduate Studies, Memorial University of Newfoundland.
