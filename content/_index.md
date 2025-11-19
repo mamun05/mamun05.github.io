@@ -16,7 +16,7 @@ mamuna[at]purdue[dot]edu
 My current research is in the area of "ML for Systems", particularly focusing on Learned Multi- and High-dimensional Index Structures. Previously, I was involved in a research project on In-Memory Graph-Relational Data Systems. Additionally, I conducted research on Anomaly Detection from sensor data streams during my graduate studies (advised by Professor [Antonina Kolokolova](https://www.cs.mun.ca/~kol/)) at Memorial University of Newfoundland, Canada.
 
 **Quick Links:**
-[Google Scholar](https://scholar.google.com/citations?user=DGPkKrkAAAAJ&hl=en) | [Linkedin](https://www.linkedin.com/in/mamunabdullahal/) | [ORCID](https://orcid.org/0000-0001-7178-4875)
+[Google Scholar](https://scholar.google.com/citations?user=DGPkKrkAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/mamunabdullahal/) | [ORCID](https://orcid.org/0000-0001-7178-4875)
 
 
 ## Publications
@@ -40,11 +40,11 @@ My current research is in the area of "ML for Systems", particularly focusing on
 
 ## Education
 
-Ph.D. in Computer Science, Purdue University, USA (expected graduation year: 2026)
+- Ph.D. in Computer Science, Purdue University, USA (expected graduation year: 2026)
 
-M.Sc. in Computer Science, Memorial University of Newfoundland, Canada (2016)
+- M.Sc. in Computer Science, Memorial University of Newfoundland, Canada (2016)
 
-B.Sc. in Computer Science, Islamic University of Technology, Bangladesh (2009)
+- B.Sc. in Computer Science, Islamic University of Technology, Bangladesh (2009)
 
 ## Teaching
 
