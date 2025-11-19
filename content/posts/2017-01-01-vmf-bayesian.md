@@ -3,7 +3,7 @@ title: "Bayesian Inference with the von-Mises-Fisher Distribution in 3D"
 img: "/images/vmf.png"
 page: "https://people.csail.mit.edu/jstraub/download/straub2017vonMisesFisherInference.pdf"
 date: 2017-01-01
-draft: false
+draft: true
 ---
 **Julian Straub**
 

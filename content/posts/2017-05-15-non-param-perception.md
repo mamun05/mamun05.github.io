@@ -3,7 +3,7 @@ title: "Nonparametric Directional Perception"
 img: "/images/non-param-perception.png"
 page: "https://dspace.mit.edu/handle/1721.1/112029"
 date: 2017-05-15
-draft: false
+draft: true
 ---
 **Julian Straub**
 

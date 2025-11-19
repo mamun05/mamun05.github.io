@@ -3,7 +3,7 @@ title: "Small-Variance Nonparametric Clustering on the Hypersphere"
 img: "/images/ddpvmf.png"
 page: "https://openaccess.thecvf.com/content_cvpr_2015/papers/Straub_Small-Variance_Nonparametric_Clustering_2015_CVPR_paper.pdf"
 date: 2015-05-19
-draft: false
+draft: true
 ---
 **Julian Straub**, 
 [Trevor Campbell](https://trevorcampbell.me), 

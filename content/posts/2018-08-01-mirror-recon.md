@@ -3,7 +3,7 @@ title: "Reconstructing scenes with mirror and glass surfaces"
 img: "/images/mirror.png"
 page: "https://research.facebook.com/publications/reconstructing-scenes-with-mirror-and-glass-surfaces/"
 date: 2018-08-01
-draft: false
+draft: true
 ---
 [Thomas Whelan](https://www.thomaswhelan.ie), 
 [Michael Goesele](https://scholar.google.com/citations?user=56UhAooAAAAJ), 

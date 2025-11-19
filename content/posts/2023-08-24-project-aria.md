@@ -3,7 +3,7 @@ title: "Project Aria: A New Tool For Egocentric Multi-Modal AI Research"
 img: "/images/projectaria.png"
 page: "https://www.projectaria.com/"
 date: 2023-08-24
-draft: false
+draft: true
 ---
 [Jakob Engel](https://jakobengel.github.io), 
 [Kiran Somasundaram](https://scholar.google.com/citations?user=gf0uK4AAAAAJ), 
