@@ -41,26 +41,26 @@ B.Sc. in Computer Science, Islamic University of Technology, Bangladesh (2009)
 
 ## Teaching
 
-**As an Instructor**
+**Instructor**
 
 CS348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-programs/courses/2023_spring_courses.html)) 
 
 - I became an instructor through a highly selective teaching fellowship program that offers distinguished TAs the opportunity to teach an undergraduate course. 
 
-**As a Graduate Teaching Assistant**
+**Graduate Teaching Assistant**
 
--CS 448: [Introduction to Relational Database Systems Implementation](https://selfservice.mypurdue.purdue.edu/prod/bzwsrch.p_catalog_detail?term=202320&subject=CS&cnbr=44800&enhanced=Y)
+- CS 448: [Introduction to Relational Database Systems Implementation](https://selfservice.mypurdue.purdue.edu/prod/bzwsrch.p_catalog_detail?term=202320&subject=CS&cnbr=44800&enhanced=Y)
 
--CS 348: [Information Systems](https://selfservice.mypurdue.purdue.edu/prod/bzwsrch.p_catalog_detail?term=202320&subject=CS&cnbr=34800&enhanced=Y)
+- CS 348: [Information Systems](https://selfservice.mypurdue.purdue.edu/prod/bzwsrch.p_catalog_detail?term=202320&subject=CS&cnbr=34800&enhanced=Y)
 
 ## Awards and Honors
 
--Summer 2025: Microsoft Fellowship (full) to attend the EDBT'25 Summer School on AI & Data Management.
+- Summer 2025: Microsoft Fellowship (full) to attend the EDBT'25 Summer School on AI & Data Management.
 
--Fall 2022-Spring 2023: Graduate Teaching Fellow, Department of Computer Science, Purdue University.
+- Fall 2022-Spring 2023: Graduate Teaching Fellow, Department of Computer Science, Purdue University.
 
--Spring 2023: Graduate Teaching Award, Department of Computer Science, Purdue University.
+- Spring 2023: Graduate Teaching Award, Department of Computer Science, Purdue University.
 
--Summer 2018: Summer Research Grant, Purdue University.
+- Summer 2018: Summer Research Grant, Purdue University.
 
--2015: Fellow of the School of Graduate Studies, Memorial University of Newfoundland.
+- 2015: Fellow of the School of Graduate Studies, Memorial University of Newfoundland.
