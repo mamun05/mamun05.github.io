@@ -26,7 +26,7 @@ B.Sc. in Computer Science, Islamic University Of Technology, Bangladesh (2009)
 
 ## Publications:
 
-1. <b>Al-Mamun, Abdullah</b>, Ch Md Rakin Haider, and Walid G. Aref. "Query Processing Tradeoffs over an ML-Enhanced R-tree." (To appear in the proceedings of the <b>GeoAI@SIGSPATIAL</b>, 2025). 
+1. <strong>Al-Mamun, Abdullah</strong>, Ch Md Rakin Haider, and Walid G. Aref. "Query Processing Tradeoffs over an ML-Enhanced R-tree." (To appear in the proceedings of the <strong>GeoAI@SIGSPATIAL</strong>, 2025). 
 
 2. Al-Mamun, Abdullah, Jianguo Wang, and Walid G. Aref. "Learned Indexes From the One-dimensional to the Multi-dimensional Spaces: Challenges, Techniques, and Opportunities." In Companion of the 2025 International Conference on Management of Data (SIGMOD), pp. 788-796. 2025. 
 
