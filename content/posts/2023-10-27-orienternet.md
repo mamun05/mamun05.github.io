@@ -3,7 +3,7 @@ title: "Orienternet: Visual localization in 2d public maps with neural matching"
 img: "/images/orienternet.png"
 page: "https://psarlin.com/orienternet/"
 date: 2023-10-27
-draft: false
+draft: true
 ---
 [Paul-Edouard Sarlin](https://psarlin.com), 
 [Daniel DeTone](https://danieldetone.com), 

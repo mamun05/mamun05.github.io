@@ -3,7 +3,7 @@ title: "EgoLifter: Open-world 3D Segmentation for Egocentric Perception"
 img: "/images/egolifter.png"
 page: "https://egolifter.github.io/"
 date: 2024-03-26
-draft: false
+draft: true
 ---
 [Qiao Gu](https://georgegu1997.github.io), 
 [Zhaoyang Lv](https://lvzhaoyang.github.io), 
