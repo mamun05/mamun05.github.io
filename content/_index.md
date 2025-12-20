@@ -23,7 +23,7 @@ My current research is in the area of "ML for Systems", particularly focusing on
 
 **Ph.D. Thesis-related**
 
-- Abdullah Al-Mamun, Hao Wu, Qiyang He, Jianguo Wang, and Walid G. Aref. ["A Survey of Learned Indexes for the Multi-dimensional Space."](https://dl.acm.org/doi/full/10.1145/3768575) ACM Computing Surveys (CSUR), 2025. 
+- Abdullah Al-Mamun, Hao Wu, Qiyang He, Jianguo Wang, and Walid G. Aref. ["A Survey of Learned Indexes for the Multi-dimensional Space."](https://dl.acm.org/doi/full/10.1145/3768575) ACM Computing Surveys (CSUR), Volume 58, Issue 4, pp. 1-37, 2025. 
 
 - Abdullah Al-Mamun, Jianguo Wang, and Walid G. Aref. ["Learned Indexes From the One-dimensional to the Multi-dimensional Spaces: Challenges, Techniques, and Opportunities."](https://dl.acm.org/doi/abs/10.1145/3722212.3725639) In Companion of the 2025 International Conference on Management of Data (SIGMOD), pp. 788-796, 2025. 
 
