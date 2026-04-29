@@ -10,13 +10,15 @@ I am a Ph.D. candidate in the Department of Computer Science at Purdue Universit
 **Contact:**
 mamuna[at]purdue[dot]edu
 
+**Quick Links:**
+[Google Scholar](https://scholar.google.com/citations?user=DGPkKrkAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/mamunabdullahal/) | [ORCID](https://orcid.org/0000-0001-7178-4875)
+
 
 ## Research
 
 My current research is in the area of "ML for Systems", particularly focusing on Learned Multi- and High-dimensional Index Structures. Previously, I was involved in a research project on In-Memory Graph-Relational Data Systems. Additionally, I conducted research on Anomaly Detection from sensor data streams during my graduate studies (advised by Professor [Antonina Kolokolova](https://www.cs.mun.ca/~kol/)) at Memorial University of Newfoundland, Canada.
 
-**Quick Links:**
-[Google Scholar](https://scholar.google.com/citations?user=DGPkKrkAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/mamunabdullahal/) | [ORCID](https://orcid.org/0000-0001-7178-4875)
+
 
 
 ## Publications
