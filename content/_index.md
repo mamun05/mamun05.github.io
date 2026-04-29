@@ -65,7 +65,7 @@ CS348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-pro
 ## Service
 
 **Journal Review**
-- IEEE Transactions on Knowledge and Data Engineering (TKDE): 2025, 2026
+- [IEEE Transactions on Knowledge and Data Engineering (TKDE)](https://www.computer.org/csdl/journal/tk): 2025, 2026
 
 
 ## Awards and Honors
