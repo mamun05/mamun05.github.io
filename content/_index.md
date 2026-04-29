@@ -40,7 +40,7 @@ My current research is in the area of "ML for Systems", particularly focusing on
 
 ## Education
 
-- Ph.D. in Computer Science, Purdue University, USA (expected graduation year: 2026)
+- Ph.D. in Computer Science, Purdue University, USA (expected: 2026)
 
 - M.Sc. in Computer Science, Memorial University of Newfoundland, Canada (2016)
 
@@ -59,6 +59,12 @@ CS348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-pro
 - CS 448: [Introduction to Relational Database Systems Implementation](https://selfservice.mypurdue.purdue.edu/prod/bzwsrch.p_catalog_detail?term=202320&subject=CS&cnbr=44800&enhanced=Y)
 
 - CS 348: [Information Systems](https://selfservice.mypurdue.purdue.edu/prod/bzwsrch.p_catalog_detail?term=202320&subject=CS&cnbr=34800&enhanced=Y)
+
+## Service
+
+**Journal Review**
+- IEEE Transactions on Knowledge and Data Engineering (TKDE): 2025, 2026
+
 
 ## Awards and Honors
 
