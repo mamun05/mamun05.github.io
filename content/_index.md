@@ -5,7 +5,7 @@ img = "/images/abdullah_image.jpg"
 draft = false
 +++
 
-I am a Ph.D. candidate in the Department of Computer Science at Purdue University, advised by Professor [Walid G. Aref](https://www.cs.purdue.edu/people/faculty/aref.html). I have also been fortunate to engage in research collaboration with Professor [Jianguo Wang](https://www.cs.purdue.edu/homes/csjgwang/) and Professor [Chunwei Liu](https://www.cs.purdue.edu/homes/chunwei/). My research interest is in the area of Database Systems + Machine Learning (ML): "ML for Systems" and "Systems for ML".
+I am a Ph.D. candidate in the Department of Computer Science at Purdue University, advised by Professor [Walid G. Aref](https://www.cs.purdue.edu/people/faculty/aref.html). My research interest is in the area of Database Systems + Machine Learning (ML): "ML for Systems" and "Systems for ML". I have also been fortunate to engage in research collaboration with Professor [Jianguo Wang](https://www.cs.purdue.edu/homes/csjgwang/) and Professor [Chunwei Liu](https://www.cs.purdue.edu/homes/chunwei/).
 
 **Contact:**
 mamuna[at]purdue[dot]edu
