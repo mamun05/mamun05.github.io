@@ -16,7 +16,7 @@ mamuna[at]purdue[dot]edu
 
 ## Research
 
-My current research is in the area of "ML for Systems", particularly focusing on Learned Multi- and High-dimensional Index Structures. Previously, I was involved in a research project on In-Memory Graph-Relational Data Systems. Additionally, I conducted research on Anomaly Detection from sensor data streams during my graduate studies (advised by Professor [Antonina Kolokolova](https://www.cs.mun.ca/~kol/)) at Memorial University of Newfoundland, Canada.
+My current research is in the area of "ML for Systems", particularly focusing on Instance-Optimized Learned Indexes for Multi- and High-Dimensional Spaces. Previously, I was involved in a research project on In-Memory Graph-Relational Data Systems. Additionally, I conducted research on Anomaly Detection from sensor data streams during my graduate studies (advised by Professor [Antonina Kolokolova](https://www.cs.mun.ca/~kol/)) at Memorial University of Newfoundland, Canada.
 
 
 
@@ -66,6 +66,9 @@ CS348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-pro
 
 **Journal Review**
 - [IEEE Transactions on Knowledge and Data Engineering (TKDE)](https://www.computer.org/csdl/journal/tk): 2025, 2026
+
+**External Review**
+- [53rd International Conference on Very Large Data Bases (VLDB)](https://vldb.org/2027/): 2027
 
 
 ## Awards and Honors
