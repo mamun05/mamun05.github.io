@@ -58,7 +58,7 @@ CS348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-pro
 
 **Graduate Teaching Assistant**
 
-- CS 448: [Introduction to Relational Database Systems Implementation](https://selfservice.mypurdue.purdue.edu/prod/bzwsrch.p_catalog_detail?term=202320&subject=CS&cnbr=44800&enhanced=Y)
+- CS 448: [Introduction to Relational Database Systems](https://selfservice.mypurdue.purdue.edu/prod/bzwsrch.p_catalog_detail?term=202320&subject=CS&cnbr=44800&enhanced=Y)
 
 - CS 348: [Information Systems](https://selfservice.mypurdue.purdue.edu/prod/bzwsrch.p_catalog_detail?term=202320&subject=CS&cnbr=34800&enhanced=Y)
 
