@@ -44,9 +44,9 @@ My current research is in the area of "ML for Systems", particularly focusing on
 
 - Ph.D. in Computer Science, Purdue University, USA (expected: 2026)
 
-- M.Sc. in Computer Science, Memorial University of Newfoundland, Canada (2016)
+- M.Sc. in Computer Science, Memorial University of Newfoundland, Canada
 
-- B.Sc. in Computer Science, Islamic University of Technology, Bangladesh (2009)
+- B.Sc. in Computer Science, Islamic University of Technology, Bangladesh
 
 ## Teaching
 
