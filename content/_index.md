@@ -36,7 +36,7 @@ My current research is in the area of "ML for Systems", particularly focusing on
 
 - Abdullah Al-Mamun, Hao Wu, and Walid G. Aref. ["A Tutorial on Learned Multi-dimensional Indexes."](https://dl.acm.org/doi/abs/10.1145/3397536.3426358) In Proceedings of the 28th International Conference on Advances in Geographic Information Systems (SIGSPATIAL), pp. 1-4, 2020.
 
-**M.Sc. Thesis-related**
+**M.Sc. [Thesis](https://hdl.handle.net/20.500.14783/14572)-related**
 
 - Abdullah Al-Mamun, Antonina Kolokolova, Dan Brake. ["Detecting Contextual Anomalies from Time-Changing Sensor Data Streams."](https://aaltodoc.aalto.fi/server/api/core/bitstreams/cc7d9835-8c31-4001-852d-dcb00ebca518/content#page=17) In Proceedings of the Doctoral Consortium of the 25th ECML PKDD, p.13, 2015.
 
