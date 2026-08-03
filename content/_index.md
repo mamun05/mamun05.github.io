@@ -24,7 +24,7 @@ My current research is in the area of "ML for Systems", particularly focusing on
 ## Publications
 
 **Ph.D. Thesis-Related**
-- Abdullah Al-Mamun, Yeasir Rayhan, and Walid G. Aref. ["iFVS: Towards Instance-Optimized Filtered Vector Search."](https://openreview.net/forum?id=83WpkgIlor) (Under Review), 2026. 
+- Abdullah Al-Mamun, Yeasir Rayhan, and Walid G. Aref. ["iFVS: Towards Instance-Optimized Filtered Vector Search."](https://arxiv.org/abs/2607.22922) (arXiv/preprint), 2026. 
 
 - Abdullah Al-Mamun, Hao Wu, Qiyang He, Jianguo Wang, and Walid G. Aref. ["A Survey of Learned Indexes for the Multi-dimensional Space."](https://dl.acm.org/doi/full/10.1145/3768575) ACM Computing Surveys (CSUR), Volume 58, Issue 4, pp. 1-37, 2025. 
 
