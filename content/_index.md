@@ -72,6 +72,19 @@ CS348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-pro
 - [53rd International Conference on Very Large Data Bases (VLDB)](https://vldb.org/2027/): 2027
 
 
+## Talks and Presentations
+**Tutorials**
+- [ACM SIGMOD (1.5 hour)](https://2025.sigmod.org/sigmod_tutorials.shtml): 2025
+- [ACM SIGSPATIAL (1 hour)](https://sigspatial2020.sigspatial.org/program/): 2020
+
+**Invited Talk**
+- [University of Maryland Institute for Advanced Computer Studies (UMIACS) Lecture Series (1 hour)](https://spatialhandling-lectureseries.umiacs.io/talks/l0401/): 2021 (Host: [Professor Hanan Samet](https://www.cs.umd.edu/~hjs/))
+
+**Workshop/Conference Presentations**
+- [GeoAI@ACM SIGSPATIAL (15 mins)](https://events.ornl.gov/acmsigspatial-geoai2025/event-agenda/): 2025
+- [IEEE MDM (15 mins)](https://mdm2022.cs.ucy.ac.cy/index.html@p=242417.html): 2022
+
+
 ## Awards and Honors
 
 - Summer 2025: Microsoft Fellowship (full) to attend the EDBT'25 Summer School on AI & Data Management.
