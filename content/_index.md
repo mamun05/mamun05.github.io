@@ -53,7 +53,7 @@ My current research is in the area of "ML for Systems", particularly focusing on
 
 **Instructor**
 
-CS348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-programs/courses/2023_spring_courses.html)) 
+CS 348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-programs/courses/2023_spring_courses.html)) 
 
 - I became an instructor through a highly selective teaching fellowship program that offers distinguished TAs the opportunity to teach an undergraduate course. 
 
@@ -74,15 +74,15 @@ CS348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-pro
 
 ## Talks and Presentations
 **Tutorials**
-- [ACM SIGMOD (1.5 hour)](https://2025.sigmod.org/sigmod_tutorials.shtml): 2025
-- [ACM SIGSPATIAL (1 hour)](https://sigspatial2020.sigspatial.org/program/): 2020
+- [ACM SIGMOD (90 minutes)](https://2025.sigmod.org/sigmod_tutorials.shtml): 2025
+- [ACM SIGSPATIAL (60 minutes)](https://sigspatial2020.sigspatial.org/program/): 2020
 
 **Invited Talk**
-- [University of Maryland Institute for Advanced Computer Studies (UMIACS) Lecture Series (1 hour)](https://spatialhandling-lectureseries.umiacs.io/talks/l0401/): 2021 (Host: [Professor Hanan Samet](https://www.cs.umd.edu/~hjs/))
+- [University of Maryland Institute for Advanced Computer Studies (UMIACS) Lecture Series (60 minutes)](https://spatialhandling-lectureseries.umiacs.io/talks/l0401/): 2021 (Host: [Professor Hanan Samet](https://www.cs.umd.edu/~hjs/))
 
 **Workshop/Conference Presentations**
-- [GeoAI@ACM SIGSPATIAL (~15 mins)](https://events.ornl.gov/acmsigspatial-geoai2025/event-agenda/): 2025
-- [IEEE MDM (~15 mins)](https://mdm2022.cs.ucy.ac.cy/index.html@p=242417.html): 2022
+- [GeoAI@ACM SIGSPATIAL (~15 minutes)](https://events.ornl.gov/acmsigspatial-geoai2025/event-agenda/): 2025
+- [IEEE MDM (~15 minutes)](https://mdm2022.cs.ucy.ac.cy/index.html@p=242417.html): 2022
 
 
 ## Awards and Honors
