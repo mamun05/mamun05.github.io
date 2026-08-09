@@ -81,8 +81,8 @@ CS348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-pro
 - [University of Maryland Institute for Advanced Computer Studies (UMIACS) Lecture Series (1 hour)](https://spatialhandling-lectureseries.umiacs.io/talks/l0401/): 2021 (Host: [Professor Hanan Samet](https://www.cs.umd.edu/~hjs/))
 
 **Workshop/Conference Presentations**
-- [GeoAI@ACM SIGSPATIAL (15 mins)](https://events.ornl.gov/acmsigspatial-geoai2025/event-agenda/): 2025
-- [IEEE MDM (15 mins)](https://mdm2022.cs.ucy.ac.cy/index.html@p=242417.html): 2022
+- [GeoAI@ACM SIGSPATIAL (~15 mins)](https://events.ornl.gov/acmsigspatial-geoai2025/event-agenda/): 2025
+- [IEEE MDM (~15 mins)](https://mdm2022.cs.ucy.ac.cy/index.html@p=242417.html): 2022
 
 
 ## Awards and Honors
