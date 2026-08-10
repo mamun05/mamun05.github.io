@@ -75,14 +75,14 @@ CS 348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-pr
 ## Talks and Presentations
 **Tutorials**
 - [ACM SIGMOD (90 minutes)](https://2025.sigmod.org/sigmod_tutorials.shtml) [[Slides]](Learned_Index_SIGMOD25_Tutorial.pdf): 2025
-- [ACM SIGSPATIAL (60 minutes)](https://sigspatial2020.sigspatial.org/program/) [[Slides]](https://www.cs.purdue.edu/homes/aref/learned-indexes-tutorial.html): 2020
+- [ACM SIGSPATIAL (60 minutes)](https://sigspatial2020.sigspatial.org/program/) [[Slides & Video]](https://www.cs.purdue.edu/homes/aref/learned-indexes-tutorial.html): 2020
 
 **Invited Talk**
-- [University of Maryland Institute for Advanced Computer Studies (UMIACS) Lecture Series (60 minutes)](https://spatialhandling-lectureseries.umiacs.io/talks/l0401/): 2021 (Host: [Professor Hanan Samet](https://www.cs.umd.edu/~hjs/))
+- University of Maryland Institute for Advanced Computer Studies (UMIACS) Lecture Series (60 minutes) [[Slides & Video]](https://spatialhandling-lectureseries.umiacs.io/talks/l0401/): 2021 (Host: [Professor Hanan Samet](https://www.cs.umd.edu/~hjs/))
 
 **Workshop/Conference Presentations**
-- [GeoAI@SIGSPATIAL (~15 minutes)](https://events.ornl.gov/acmsigspatial-geoai2025/event-agenda/): 2025
-- [IEEE MDM (~15 minutes)](https://mdm2022.cs.ucy.ac.cy/index.html@p=242417.html): 2022
+- [GeoAI@SIGSPATIAL (~15 minutes)](https://events.ornl.gov/acmsigspatial-geoai2025/event-agenda/) [[Slides]](GeoAI'25_Slides_Final.pdf): 2025
+- [IEEE MDM (~15 minutes)](https://mdm2022.cs.ucy.ac.cy/index.html@p=242417.html) [[Slides & Video]](https://www.youtube.com/embed/zs0nzjAWh_Q): 2022
 
 
 ## Awards and Honors
