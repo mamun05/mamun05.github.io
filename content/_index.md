@@ -74,7 +74,7 @@ CS 348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-pr
 
 ## Talks and Presentations
 **Tutorials**
-- [ACM SIGMOD (90 minutes)](https://2025.sigmod.org/sigmod_tutorials.shtml) [[Slides]](content\Learned_Index_SIGMOD25_Tutorial.pdf): 2025
+- [ACM SIGMOD (90 minutes)](https://2025.sigmod.org/sigmod_tutorials.shtml) [[Slides]](Learned_Index_SIGMOD25_Tutorial.pdf): 2025
 - [ACM SIGSPATIAL (60 minutes)](https://sigspatial2020.sigspatial.org/program/) [[Slides]](https://www.cs.purdue.edu/homes/aref/learned-indexes-tutorial.html): 2020
 
 **Invited Talk**
