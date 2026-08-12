@@ -78,7 +78,7 @@ CS 348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-pr
 - [ACM SIGSPATIAL (60 minutes)](https://sigspatial2020.sigspatial.org/program/) [[Slides & Video]](https://www.cs.purdue.edu/homes/aref/learned-indexes-tutorial.html): 2020
 
 **Invited Talk**
-- University of Maryland Institute for Advanced Computer Studies (UMIACS) Lecture Series (60 minutes) [[Slides & Video]](https://spatialhandling-lectureseries.umiacs.io/talks/l0401/): 2021 (Host: [Professor Hanan Samet](https://www.cs.umd.edu/~hjs/))
+- University of Maryland Institute for Advanced Computer Studies (UMIACS) Lecture Series (60 minutes) [[Slides & Video]](https://spatialhandling-lectureseries.umiacs.io/talks/l0401/): 2021 (Host: Professor [Hanan Samet](https://www.cs.umd.edu/~hjs/))
 
 **Workshop/Conference Presentations**
 - [GeoAI@SIGSPATIAL (~15 minutes)](https://events.ornl.gov/acmsigspatial-geoai2025/event-agenda/) [[Slides]](GeoAI_25_Slides_Final.pdf): 2025
@@ -87,7 +87,7 @@ CS 348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-pr
 
 ## Awards and Honors
 
-- Summer 2025: Microsoft Fellowship (full) to attend the EDBT'25 Summer School on AI & Data Management.
+- Summer 2025: Microsoft Fellowship (full) to attend the [EDBT'25 Summer School on AI & Data Management](https://dmai.cs.ucy.ac.cy/index.html).
 
 - Fall 2022-Spring 2023: Graduate Teaching Fellow, Department of Computer Science, Purdue University.
 
