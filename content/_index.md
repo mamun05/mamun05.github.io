@@ -43,7 +43,7 @@ My current research is in the area of "ML for Systems", particularly focusing on
 
 ## Education
 
-- Ph.D. in Computer Science, Purdue University, USA (expected: 2026)
+- Ph.D. in Computer Science, Purdue University, USA (expected: May 2027)
 
 - M.Sc. in Computer Science, Memorial University of Newfoundland, Canada
 
