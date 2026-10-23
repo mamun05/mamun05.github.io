@@ -12,7 +12,7 @@ I am a Ph.D. candidate in the Department of Computer Science at Purdue Universit
 
 
 **Quick Links:**
-&ensp;[CV](Abdullah_Al_Mamun_CV_v1.pdf)|&ensp;[Google Scholar](https://scholar.google.com/citations?user=DGPkKrkAAAAJ&hl=en)|&ensp;[LinkedIn](https://www.linkedin.com/in/mamunabdullahal/)|&ensp;[ORCID](https://orcid.org/0000-0001-7178-4875)
+&ensp;[CV](Abdullah_Al_Mamun_CV_v2.pdf)|&ensp;[Google Scholar](https://scholar.google.com/citations?user=DGPkKrkAAAAJ&hl=en)|&ensp;[LinkedIn](https://www.linkedin.com/in/mamunabdullahal/)|&ensp;[ORCID](https://orcid.org/0000-0001-7178-4875)
 
 **Contact:**
 mamuna[at]purdue[dot]edu
