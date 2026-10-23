@@ -10,11 +10,12 @@ I am a Ph.D. candidate in the Department of Computer Science at Purdue Universit
 **I am on the 2026–27 academic job market.**
 {.job-market}
 
-**Contact:**
-mamuna[at]purdue[dot]edu
 
 **Quick Links:**
-[CV](Abdullah_Al_Mamun_CV.pdf) | [Google Scholar](https://scholar.google.com/citations?user=DGPkKrkAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/mamunabdullahal/) | [ORCID](https://orcid.org/0000-0001-7178-4875)
+&ensp;[CV](Abdullah_Al_Mamun_CV.pdf)|&ensp;[Google Scholar](https://scholar.google.com/citations?user=DGPkKrkAAAAJ&hl=en)|&ensp;[LinkedIn](https://www.linkedin.com/in/mamunabdullahal/)|&ensp;[ORCID](https://orcid.org/0000-0001-7178-4875)
+
+**Contact:**
+mamuna[at]purdue[dot]edu
 
 
 ## Research
