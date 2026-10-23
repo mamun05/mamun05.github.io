@@ -5,7 +5,10 @@ img = "/images/abdullah_image.jpg"
 draft = false
 +++
 
-I am a Ph.D. candidate in the Department of Computer Science at Purdue University, advised by Professor [Walid G. Aref](https://www.cs.purdue.edu/people/faculty/aref.html). My research interest is in the area of Database Systems + Machine Learning (ML): "ML for Systems" and "Systems for ML". I have also been fortunate to engage in research collaboration with Professor [Jianguo Wang](https://www.cs.purdue.edu/homes/csjgwang/) and Professor [Chunwei Liu](https://www.cs.purdue.edu/homes/chunwei/).
+I am a Ph.D. candidate in the Department of Computer Science at Purdue University, advised by Professor [Walid G. Aref](https://www.cs.purdue.edu/people/faculty/aref.html). My research interests are at the intersection of Database Systems and Machine Learning (ML), including both ML for systems and Systems for ML. I have also been fortunate to engage in research collaboration with Professor [Jianguo Wang](https://www.cs.purdue.edu/homes/csjgwang/) and Professor [Chunwei Liu](https://www.cs.purdue.edu/homes/chunwei/).
+
+**I am on the 2026–27 academic job market.**
+{.job-market}
 
 **Contact:**
 mamuna[at]purdue[dot]edu
@@ -24,21 +27,29 @@ My current research is in the area of "ML for Systems", particularly focusing on
 ## Publications
 
 **Ph.D. Thesis-Related**
-- Abdullah Al-Mamun, Yeasir Rayhan, and Walid G. Aref. ["iFVS: Towards Instance-Optimized Filtered Vector Search."](https://arxiv.org/abs/2607.22922) (arXiv/preprint), 2026. 
+- **Abdullah Al-Mamun**, Yeasir Rayhan, and Walid G. Aref. ["iFVS: Towards Instance-Optimized Filtered Vector Search."](https://arxiv.org/abs/2607.22922) (arXiv/preprint), 2026. 
 
-- Abdullah Al-Mamun, Hao Wu, Qiyang He, Jianguo Wang, and Walid G. Aref. ["A Survey of Learned Indexes for the Multi-dimensional Space."](https://dl.acm.org/doi/full/10.1145/3768575) ACM Computing Surveys (CSUR), Volume 58, Issue 4, pp. 1-37, 2025. 
+- **Abdullah Al-Mamun**, Hao Wu, Qiyang He, Jianguo Wang, and Walid G. Aref. ["A Survey of Learned Indexes for the Multi-dimensional Space."](https://dl.acm.org/doi/full/10.1145/3768575) ACM Computing Surveys (CSUR), Volume 58, Issue 4, pp. 1-37, 2025. 
 
-- Abdullah Al-Mamun, Jianguo Wang, and Walid G. Aref. ["Learned Indexes From the One-dimensional to the Multi-dimensional Spaces: Challenges, Techniques, and Opportunities."](https://dl.acm.org/doi/abs/10.1145/3722212.3725639) In Companion of the International Conference on Management of Data (SIGMOD, Tutorial Track), pp. 788-796, 2025. 
+- **Abdullah Al-Mamun**, Jianguo Wang, and Walid G. Aref. ["Learned Indexes From the One-dimensional to the Multi-dimensional Spaces: Challenges, Techniques, and Opportunities."](https://dl.acm.org/doi/abs/10.1145/3722212.3725639) In Companion of the International Conference on Management of Data (SIGMOD, Tutorial Track), pp. 788-796, 2025. 
 
-- Abdullah Al-Mamun, Ch. Md. Rakin Haider, and Walid G. Aref. ["Query Processing Tradeoffs over an ML-Enhanced R-tree."](https://dl.acm.org/doi/10.1145/3764912.3770834) In Proceedings of the 8th ACM SIGSPATIAL International Workshop on AI for Geographic Knowledge Discovery (GeoAI@SIGSPATIAL), pp. 174-184, 2025. 
+- **Abdullah Al-Mamun**, Ch. Md. Rakin Haider, and Walid G. Aref. ["Query Processing Tradeoffs over an ML-Enhanced R-tree."](https://dl.acm.org/doi/10.1145/3764912.3770834) In Proceedings of the 8th ACM SIGSPATIAL International Workshop on AI for Geographic Knowledge Discovery (GeoAI@SIGSPATIAL), pp. 174-184, 2025. 
 
-- Abdullah Al-Mamun, Ch. Md. Rakin Haider, Jianguo Wang, and Walid G. Aref. ["The “AI+ R”-tree: An Instance-optimized R-tree."](https://ieeexplore.ieee.org/abstract/document/9861112) In Proceedings of the 23rd IEEE International Conference on Mobile Data Management (MDM), pp. 9-18. IEEE, 2022. 
+- **Abdullah Al-Mamun**, Ch. Md. Rakin Haider, Jianguo Wang, and Walid G. Aref. ["The “AI+ R”-tree: An Instance-optimized R-tree."](https://ieeexplore.ieee.org/abstract/document/9861112) In Proceedings of the 23rd IEEE International Conference on Mobile Data Management (MDM), pp. 9-18. IEEE, 2022. 
 
-- Abdullah Al-Mamun, Hao Wu, and Walid G. Aref. ["A Tutorial on Learned Multi-dimensional Indexes."](https://dl.acm.org/doi/abs/10.1145/3397536.3426358) In Proceedings of the 28th International Conference on Advances in Geographic Information Systems (SIGSPATIAL), pp. 1-4, 2020.
+- **Abdullah Al-Mamun**, Hao Wu, and Walid G. Aref. ["A Tutorial on Learned Multi-dimensional Indexes."](https://dl.acm.org/doi/abs/10.1145/3397536.3426358) In Proceedings of the 28th International Conference on Advances in Geographic Information Systems (SIGSPATIAL), pp. 1-4, 2020.
 
-**M.Sc. [Thesis](https://hdl.handle.net/20.500.14783/14572)-Related**
+{{< details summary="Prior Publications" >}}
+- **Abdullah Al-Mamun**, Antonina Kolokolova, Dan Brake. ["Detecting Contextual Anomalies from Time-Changing Sensor Data Streams."](https://aaltodoc.aalto.fi/server/api/core/bitstreams/cc7d9835-8c31-4001-852d-dcb00ebca518/content#page=17) In Proceedings of the Doctoral Consortium of the 25th ECML PKDD, p.13, 2015. [(M.Sc. Thesis](https://hdl.handle.net/20.500.14783/14572)-Related)
 
-- Abdullah Al-Mamun, Antonina Kolokolova, Dan Brake. ["Detecting Contextual Anomalies from Time-Changing Sensor Data Streams."](https://aaltodoc.aalto.fi/server/api/core/bitstreams/cc7d9835-8c31-4001-852d-dcb00ebca518/content#page=17) In Proceedings of the Doctoral Consortium of the 25th ECML PKDD, p.13, 2015.
+- SM Sarwar, and **Abdullah Al-Mamun**. ["`Next Word Prediction for Phonetic Typing by Grouping Language Models."](https://ieeexplore.ieee.org/abstract/document/7477536) In Proceedings of the 2nd International Conference on Information Management (ICIM), 73-76, 2016.
+
+- UH Billah, SM Sarwar, and **Abdullah Al-Mamun**. ["Personalized Language Models for Computer-mediated Communication."](https://ceur-ws.org/Vol-1625/) In Proceedings of the 3rd Workshop on Concept Discovery in Unstructured Data (CDUD@CLA), 2-12, 2016.
+
+- SM Sarwar, MA Abedin, AHM Ullah, and **Abdullah Al-Mamun**. ["Personalized Query Expansion for Web Search Using Social Keywords."](https://dl.acm.org/doi/abs/10.1145/2539150.2539266) In Proceedings of International Conference on Information Integration and Web-based Applications \& Services (iiWAS), pp. 610-614, 2013.
+
+- **Abdullah Al-Mamun**, MA Abedin, Md. Al Arman, MA Mottalib, Mohammad Rezwanul Huq. ["Mining Data Streams from a Higher Level of Abstraction: A Class Window Approach."](https://link.springer.com/chapter/10.1007/978-3-642-25483-3_38) In proceedings of International Conference on Informatics Engineering and Information Science (ICIEIS), pp. 461-469, 2011.
+{{< /details >}}
 
 
 ## Education
