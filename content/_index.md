@@ -20,7 +20,7 @@ mamuna[at]purdue[dot]edu
 
 ## Research
 
-I specialize in **Machine Learning for Database Systems**, where I build ML-enhanced database system components that are instance-optimized, i.e., custom-tailored to specific data and query workloads. In particular, I develop learned index structures that enable efficient query processing over spatial and vector databases. I am also expanding my research toward instance-optimized **Database Systems for AI Agents**. The systems I envision are tailored to specific AI agents that explore speculative branches through high-frequency forking. These systems aim to process agent-issued queries efficiently while keeping agent-modified data trustworthy.
+I specialize in **Machine Learning for Database Systems**, where I build ML-enhanced database system components that are *instance-optimized*, i.e., custom-tailored to specific data and query workloads. In particular, I develop learned index structures that improve the efficiency of query processing over spatial and vector data. I am also expanding my research toward instance-optimized **Database Systems for AI Agents**. The systems I envision are tailored to specific AI agents that explore speculative branches through high-frequency forking. These systems aim to process agent-issued queries efficiently while keeping agent-modified data trustworthy.
 
 
 
