@@ -20,10 +20,7 @@ mamuna[at]purdue[dot]edu
 
 ## Research
 
-I specialize in **Machine Learning for Database Systems**, where I build ML-enhanced database system components that are instance-optimized, i.e., custom-tailored to specific data and query workloads. In particular, I develop learned index structures that enable efficient query processing over spatial and vector databases. I am also expanding my research toward **Database Systems for AI Agents**, building instance-optimized database systems for AI agent workloads. I envision these systems enabling AI agents to process queries efficiently while preserving data integrity.
-
-
-
+I specialize in **Machine Learning for Database Systems**, where I build ML-enhanced database system components that are instance-optimized, i.e., custom-tailored to specific data and query workloads. In particular, I develop learned index structures that enable efficient query processing over spatial and vector databases. I am also expanding my research toward trustworthy **Database Systems for AI Agents**. The instance-optimized database systems I envision are tailored to AI agents that explore speculative branches through high-frequency forking.
 
 
 ## Publications
@@ -44,19 +41,19 @@ I specialize in **Machine Learning for Database Systems**, where I build ML-enha
 {{< details summary="Prior Publications" >}}
 - **Abdullah Al-Mamun**, Antonina Kolokolova, Dan Brake. ["Detecting Contextual Anomalies from Time-Changing Sensor Data Streams."](https://aaltodoc.aalto.fi/server/api/core/bitstreams/cc7d9835-8c31-4001-852d-dcb00ebca518/content#page=17) In Proceedings of the Doctoral Consortium of the 25th ECML PKDD, p.13, 2015. [(M.Sc. Thesis](https://hdl.handle.net/20.500.14783/14572)-Related)
 
-- SM Sarwar, and **Abdullah Al-Mamun**. ["`Next Word Prediction for Phonetic Typing by Grouping Language Models."](https://ieeexplore.ieee.org/abstract/document/7477536) In Proceedings of the 2nd International Conference on Information Management (ICIM), 73-76, 2016.
+- SM Sarwar, and **Abdullah Al-Mamun**. ["Next Word Prediction for Phonetic Typing by Grouping Language Models."](https://ieeexplore.ieee.org/abstract/document/7477536) In Proceedings of the 2nd International Conference on Information Management (ICIM), 73-76, 2016.
 
 - UH Billah, SM Sarwar, and **Abdullah Al-Mamun**. ["Personalized Language Models for Computer-mediated Communication."](https://ceur-ws.org/Vol-1625/) In Proceedings of the 3rd Workshop on Concept Discovery in Unstructured Data (CDUD@CLA), 2-12, 2016.
 
 - SM Sarwar, MA Abedin, AHM Ullah, and **Abdullah Al-Mamun**. ["Personalized Query Expansion for Web Search Using Social Keywords."](https://dl.acm.org/doi/abs/10.1145/2539150.2539266) In Proceedings of International Conference on Information Integration and Web-based Applications \& Services (iiWAS), pp. 610-614, 2013.
 
-- **Abdullah Al-Mamun**, MA Abedin, Md. Al Arman, MA Mottalib, Mohammad Rezwanul Huq. ["Mining Data Streams from a Higher Level of Abstraction: A Class Window Approach."](https://link.springer.com/chapter/10.1007/978-3-642-25483-3_38) In proceedings of International Conference on Informatics Engineering and Information Science (ICIEIS), pp. 461-469, 2011.
+- **Abdullah Al-Mamun**, MA Abedin, Md. Al Arman, MA Mottalib, Mohammad Rezwanul Huq. ["Mining Data Streams from a Higher Level of Abstraction: A Class Window Approach."](https://link.springer.com/chapter/10.1007/978-3-642-25483-3_38) In proceedings of International Conference on Informatics Engineering and Information Science (ICIEIS), pp. 461-469, 2011. (B.Sc. Thesis-Related)
 {{< /details >}}
 
 
 ## Education
 
-- Ph.D. in Computer Science, Purdue University, USA (expected: May 2027)
+- Ph.D. in Computer Science, Purdue University, USA (expected: **May 2027**)
 
 - M.Sc. in Computer Science, Memorial University of Newfoundland, Canada
 
@@ -66,23 +63,18 @@ I specialize in **Machine Learning for Database Systems**, where I build ML-enha
 
 **Instructor**
 
-CS 348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-programs/courses/2023_spring_courses.html)) 
+CS 348: Information Systems, [Spring 2023](https://www.cs.purdue.edu/academic-programs/courses/2023_spring_courses.html) 
 
 - I became an instructor through a highly selective teaching fellowship program that offers distinguished TAs the opportunity to teach an undergraduate course. 
+- Class size: 221 students
+- Teaching staff: 6 GTAs
+
 
 **Graduate Teaching Assistant**
 
-- CS 448: [Introduction to Relational Database Systems](https://selfservice.mypurdue.purdue.edu/prod/bzwsrch.p_catalog_detail?term=202320&subject=CS&cnbr=44800&enhanced=Y)
+- CS 448: [Introduction to Relational Database Systems](https://catalog.purdue.edu/preview_course_nopop.php?catoid=19&coid=226846&_ga=2.252176705.956858481.1793114189-1400163613.1712554502)
 
-- CS 348: [Information Systems](https://selfservice.mypurdue.purdue.edu/prod/bzwsrch.p_catalog_detail?term=202320&subject=CS&cnbr=34800&enhanced=Y)
-
-## Service
-
-**Journal Review**
-- [IEEE Transactions on Knowledge and Data Engineering (TKDE)](https://www.computer.org/csdl/journal/tk): 2025, 2026
-
-**External Review**
-- [53rd International Conference on Very Large Data Bases (VLDB)](https://vldb.org/2027/): 2027
+- CS 348: [Information Systems](https://catalog.purdue.edu/preview_course_nopop.php?catoid=19&coid=226832&_ga=2.178703084.956858481.1793114189-1400163613.1712554502)
 
 
 ## Talks and Presentations
@@ -96,6 +88,14 @@ CS 348: Information Systems ([Spring 2023](https://www.cs.purdue.edu/academic-pr
 **Workshop/Conference Presentations**
 - [GeoAI@SIGSPATIAL (~15 minutes)](https://events.ornl.gov/acmsigspatial-geoai2025/event-agenda/) [[Slides]](GeoAI_25_Slides_Final.pdf): 2025
 - [IEEE MDM (~15 minutes)](https://mdm2022.cs.ucy.ac.cy/index.html@p=242417.html) [[Slides & Video]](https://www.youtube.com/embed/zs0nzjAWh_Q): 2022
+
+## Service
+
+**Journal Review**
+- [IEEE Transactions on Knowledge and Data Engineering (TKDE)](https://www.computer.org/csdl/journal/tk): 2025, 2026
+
+**External Review**
+- [53rd International Conference on Very Large Data Bases (VLDB)](https://vldb.org/2027/): 2027
 
 
 ## Awards and Honors
