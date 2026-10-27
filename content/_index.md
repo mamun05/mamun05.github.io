@@ -96,7 +96,7 @@ CS 348: Information Systems, [Spring 2023](https://www.cs.purdue.edu/academic-pr
 - [IEEE Transactions on Knowledge and Data Engineering (TKDE)](https://www.computer.org/csdl/journal/tk): 2025, 2026
 
 **External Review**
-- [53rd International Conference on Very Large Data Bases (VLDB)](https://vldb.org/2027/): 2027
+- [53rd International Conference on Very Large Data Bases (VLDB)](https://vldb.org/2027/): 2026
 
 
 ## Awards and Honors
