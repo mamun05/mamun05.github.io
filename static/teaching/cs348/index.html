@@ -1,0 +1,747 @@
+<!doctype html>
+<!--
+  CS 348: Information Systems (Spring 2023) - standalone course page.
+  Served as-is by Hugo from static/ at /teaching/cs348/ (no theme templating).
+
+  HOW TO EDIT
+  - Every block between "SECTION:" markers is independent. Delete a whole
+    <section> to remove it; the "On this page" menu rebuilds itself from the
+    sections that remain.
+  - Colors live in the :root tokens below (light) and the two dark-mode blocks.
+    --part-1 ... --part-4 color the four course parts in the course map, its
+    legend, and the schedule table, so keep the three in sync if you re-group.
+  - Sources: "cs348 Course info. md" and CS348_Spring23_Schedule.xlsx.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>CS 348: Information Systems, Spring 2023 | Abdullah Al-Mamun</title>
+<meta name="description" content="CS 348: Information Systems at Purdue University, Spring 2023, taught by Abdullah Al-Mamun. Course map, schedule, assessment, and syllabus.">
+<style>
+  /* Lato, self-hosted by the main site (static/fonts/lato). */
+  @font-face { font-family: 'Lato'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/lato/lato-400.woff2') format('woff2'); }
+  @font-face { font-family: 'Lato'; font-style: italic; font-weight: 400; font-display: swap; src: url('/fonts/lato/lato-400-italic.woff2') format('woff2'); }
+  @font-face { font-family: 'Lato'; font-style: normal; font-weight: 700; font-display: swap; src: url('/fonts/lato/lato-700.woff2') format('woff2'); }
+  @font-face { font-family: 'Lato'; font-style: normal; font-weight: 900; font-display: swap; src: url('/fonts/lato/lato-900.woff2') format('woff2'); }
+
+  /* ---------- Tokens (light; matches the main site) ---------- */
+  :root {
+    color-scheme: light;
+    --bg: #ffffff;
+    --surface: #f5f5f3;
+    --text: #212121;
+    --text-2: #5c5c5c;
+    --muted: #767676;
+    --rule: #e3e3e0;
+    --rule-strong: #c9c9c4;
+    --link: #1e70bf;
+    --link-visited: #921292;
+    --part-1: #2a78d6;
+    --part-2: #eb6834;
+    --part-3: #1baf7a;
+    --part-4: #eda100;
+    --exam: #212121;
+    --exam-ink: #ffffff;
+    --hatch: #b9b9b4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #212121;
+      --surface: #2a2a2a;
+      --text: #fafafa;
+      --text-2: #b4b4b4;
+      --muted: #8f8f8f;
+      --rule: #383838;
+      --rule-strong: #505050;
+      --link: #5aa7e8;
+      --link-visited: #b98af0;
+      --part-1: #3987e5;
+      --part-2: #d95926;
+      --part-3: #199e70;
+      --part-4: #c98500;
+      --exam: #fafafa;
+      --exam-ink: #212121;
+      --hatch: #5e5e5e;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #212121;
+    --surface: #2a2a2a;
+    --text: #fafafa;
+    --text-2: #b4b4b4;
+    --muted: #8f8f8f;
+    --rule: #383838;
+    --rule-strong: #505050;
+    --link: #5aa7e8;
+    --link-visited: #b98af0;
+    --part-1: #3987e5;
+    --part-2: #d95926;
+    --part-3: #199e70;
+    --part-4: #c98500;
+    --exam: #fafafa;
+    --exam-ink: #212121;
+    --hatch: #5e5e5e;
+  }
+
+  /* ---------- Base ---------- */
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.55;
+    overflow-wrap: break-word;
+  }
+  a { color: var(--link); text-decoration: none; }
+  a:visited { color: var(--link-visited); }
+  a:hover { text-decoration: underline; }
+  h1, h2, h3 { font-weight: 900; line-height: 1.2; }
+  h2 { font-size: 1.4rem; margin: 3.25rem 0 1rem; }
+  h3 { font-size: 1.02rem; margin: 1.75rem 0 .5rem; }
+  p { margin: .5rem 0; }
+  ul, ol { padding-left: 1.25rem; }
+  li { margin: .3rem 0; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 2.5rem 16px 4rem; }
+  @media (min-width: 700px) { .wrap { padding: 4rem 2rem 5rem; } }
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+  .muted { color: var(--muted); }
+  .nw { white-space: nowrap; }
+  .small { font-size: .88rem; }
+
+  /* ---------- Header ---------- */
+  .back { display: inline-block; margin-bottom: 2rem; }
+  .eyebrow { margin: 0; font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--text-2); }
+  h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: .35rem 0 .5rem; }
+  .subtitle { font-size: 1.08rem; color: var(--text-2); margin: 0; }
+  .meta-line { margin: 1rem 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: .25rem 1.5rem; font-size: .92rem; }
+  .meta-line li { margin: 0; }
+  .meta-line b { font-weight: 700; color: var(--text-2); margin-right: .3rem; }
+
+  #toc { margin: 2rem 0 0; padding: .75rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); font-size: .9rem; }
+  #toc ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; }
+  #toc li { margin: 0; }
+  #toc a:visited { color: var(--link); }
+  #toc .label { color: var(--muted); margin-right: .25rem; }
+
+  /* ---------- My role ---------- */
+  .lede { font-size: 1.08rem; }
+  .stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem 1.5rem; margin: 1.75rem 0; padding: 0; list-style: none; }
+  @media (min-width: 640px) { .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+  .stats li { margin: 0; padding-top: .6rem; border-top: 2px solid var(--text); }
+  .stats .value { display: block; font-size: 2rem; font-weight: 700; line-height: 1.1; }
+  .stats .label { display: block; font-size: .88rem; color: var(--text-2); }
+  .two-col { display: grid; gap: 0 2.5rem; }
+  .two-col > * { min-width: 0; }
+  @media (min-width: 700px) { .two-col { grid-template-columns: 1fr 1fr; } }
+
+  /* ---------- Course map ---------- */
+  .map {
+    display: grid;
+    grid-template-columns: 2rem repeat(16, minmax(0, 1fr));
+    grid-template-rows: auto auto auto;
+    grid-auto-flow: column;
+    gap: 3px;
+    margin: 1.25rem 0 .5rem;
+  }
+  .map .lbl { font-size: .72rem; color: var(--muted); align-self: center; }
+  .map .wk { font-size: .72rem; color: var(--muted); text-align: center; font-variant-numeric: tabular-nums; padding-top: .15rem; }
+  .c {
+    height: 24px;
+    border-radius: 3px;
+    display: grid;
+    place-items: center;
+    font-size: .66rem;
+    font-weight: 700;
+    cursor: default;
+    transition: opacity .15s;
+  }
+  .c.p1 { background: var(--part-1); }
+  .c.p2 { background: var(--part-2); }
+  .c.p3 { background: var(--part-3); }
+  .c.p4 { background: var(--part-4); }
+  .c.exam { background: var(--exam); color: var(--exam-ink); }
+  .c.off, .sw.off {
+    background: repeating-linear-gradient(135deg, var(--hatch) 0 1.5px, transparent 1.5px 5px);
+    box-shadow: inset 0 0 0 1px var(--hatch);
+  }
+  .map[data-focus="p1"] .c:not(.p1),
+  .map[data-focus="p2"] .c:not(.p2),
+  .map[data-focus="p3"] .c:not(.p3),
+  .map[data-focus="p4"] .c:not(.p4) { opacity: .18; }
+  @media (forced-colors: active) { .c, .sw { forced-color-adjust: none; } }
+
+  .legend { list-style: none; padding: 0; margin: 1.25rem 0 0; display: grid; gap: 1rem 1.5rem; grid-template-columns: 1fr; }
+  @media (min-width: 560px) { .legend { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (min-width: 820px) { .legend { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+  .legend li { margin: 0; display: grid; grid-template-columns: 14px 1fr; gap: .6rem; cursor: default; }
+  .sw { width: 14px; height: 14px; border-radius: 3px; margin-top: .2rem; display: inline-block; }
+  .sw.p1 { background: var(--part-1); }
+  .sw.p2 { background: var(--part-2); }
+  .sw.p3 { background: var(--part-3); }
+  .sw.p4 { background: var(--part-4); }
+  .sw.exam { background: var(--exam); }
+  .legend .name { font-weight: 700; }
+  .legend .meta { font-size: .82rem; color: var(--text-2); }
+  .legend .topics { font-size: .85rem; color: var(--text-2); margin-top: .2rem; }
+  .keys { list-style: none; padding: 0; margin: 1rem 0 0; display: flex; flex-wrap: wrap; gap: .4rem 1.5rem; font-size: .85rem; color: var(--text-2); }
+  .keys li { margin: 0; display: flex; align-items: center; gap: .5rem; }
+  .keys .sw { margin-top: 0; }
+
+  .tip {
+    position: absolute;
+    z-index: 10;
+    max-width: 260px;
+    padding: .45rem .6rem;
+    border-radius: 6px;
+    background: var(--text);
+    color: var(--bg);
+    font-size: .8rem;
+    line-height: 1.35;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .1s;
+  }
+  .tip.on { opacity: 1; }
+  .tip .t-date { font-weight: 700; display: block; }
+  .tip .t-part { display: block; opacity: .75; margin-top: .15rem; }
+
+  /* ---------- Tables ---------- */
+  table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+  th, td { text-align: left; vertical-align: top; padding: .5rem .6rem; }
+  thead th { font-size: .74rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--text-2); border-bottom: 1px solid var(--rule-strong); }
+  tbody td, tbody th { border-bottom: 1px solid var(--rule); }
+  .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  /* Schedule */
+  .schedule-note { font-size: .88rem; color: var(--text-2); }
+  .schedule { margin-top: 1rem; }
+  /* One rule per week; rows inside a week stay unruled so the week reads as a group. */
+  .schedule tbody { border-top: 1px solid var(--rule-strong); }
+  .schedule tbody:last-child { border-bottom: 1px solid var(--rule-strong); }
+  .schedule tbody td, .schedule tbody th { border-bottom: 0; }
+  .schedule th.wk { width: 2.75rem; font-weight: 700; color: var(--text-2); font-variant-numeric: tabular-nums; }
+  .schedule td.date { width: 7rem; white-space: nowrap; border-left: 3px solid transparent; }
+  .schedule tr.p1 td.date { border-left-color: var(--part-1); }
+  .schedule tr.p2 td.date { border-left-color: var(--part-2); }
+  .schedule tr.p3 td.date { border-left-color: var(--part-3); }
+  .schedule tr.p4 td.date { border-left-color: var(--part-4); }
+  .schedule tr.exam td.date { border-left-color: var(--exam); }
+  .schedule td.read { width: 24%; color: var(--text-2); font-size: .86rem; }
+  .schedule td.hw { width: 23%; }
+  .schedule tr.exam td { background: var(--surface); }
+  .schedule tr.off td { color: var(--muted); font-style: italic; }
+  .hw-list { display: flex; flex-direction: column; align-items: flex-start; gap: .3rem; }
+  .tag { display: inline-block; font-size: .78rem; line-height: 1.4; padding: .05rem .5rem; border-radius: 999px; border: 1px solid var(--rule-strong); white-space: nowrap; font-style: normal; }
+  .tag.due { background: var(--text); border-color: var(--text); color: var(--bg); }
+  .tag.exam { background: var(--exam); border-color: var(--exam); color: var(--exam-ink); font-weight: 700; margin-right: .4rem; }
+
+  @media (max-width: 720px) {
+    .schedule thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+    .schedule, .schedule tbody, .schedule tr, .schedule th, .schedule td { display: block; width: auto; }
+    .schedule th.wk, .schedule td.date, .schedule td.read, .schedule td.hw { width: auto; }
+    .schedule tbody { padding: .4rem 0 .6rem; }
+    .schedule tr { display: grid; grid-template-columns: 6.25rem minmax(0, 1fr); column-gap: .75rem; padding: .3rem 0; }
+    .schedule th.wk { grid-column: 1 / -1; border: 0; padding: .35rem 0; }
+    .schedule th.wk::before { content: "Week "; }
+    .schedule td { border: 0; padding: .1rem 0; grid-column: 2; }
+    .schedule td.date { grid-column: 1; grid-row: span 3; padding-left: .5rem; white-space: normal; }
+    .schedule td:empty { display: none; }
+    .schedule td.read::before { content: "Reading: "; font-weight: 700; }
+    .schedule td.hw { padding-top: .3rem; }
+    .schedule tr.exam td { background: none; }
+  }
+
+  /* Grading */
+  .weights td.bar { width: 30%; vertical-align: middle; }
+  .weights .track { display: block; height: 6px; border-radius: 3px; background: var(--rule); }
+  .weights .fill { display: block; height: 100%; width: var(--w); border-radius: 3px; background: var(--text-2); }
+  .weights tfoot td { font-weight: 700; border-top: 1px solid var(--rule-strong); }
+  .weights .sub { display: block; font-size: .82rem; color: var(--muted); }
+  @media (max-width: 480px) { .weights .bar { display: none; } }
+  .scale td { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .scale b { display: inline-block; width: 1.9rem; }
+  @media (max-width: 480px) {
+    .scale td { padding: .45rem .3rem; font-size: .86rem; }
+    .scale b { width: 1.6rem; }
+  }
+
+  .cards { display: grid; gap: 1rem; margin-top: 1.25rem; }
+  @media (min-width: 700px) { .cards { grid-template-columns: 1fr 1fr; } }
+  .card { background: var(--surface); border-radius: 8px; padding: 1rem 1.15rem; }
+  .card h3 { margin-top: 0; }
+  .card ul { margin: .4rem 0 0; }
+
+  /* Overview */
+  .note { border-left: 3px solid var(--rule-strong); padding: .25rem 0 .25rem 1rem; margin: 1.25rem 0; color: var(--text-2); }
+  .facts { margin: 1.5rem 0 0; display: grid; gap: .9rem; }
+  .facts > div { display: grid; gap: .1rem 1.5rem; }
+  @media (min-width: 640px) { .facts > div { grid-template-columns: 9rem 1fr; } }
+  .facts dt { font-weight: 700; }
+  .facts dd { margin: 0; }
+
+  /* Team */
+  .plain { list-style: none; padding: 0; margin: .4rem 0; }
+  .plain li { margin: .2rem 0; }
+  .plain.cols { display: grid; grid-template-columns: 1fr 1fr; gap: .2rem 1.5rem; }
+  .plain.cols li { margin: 0; }
+  .pso { max-width: 640px; }
+
+  /* Syllabus divider, a nod to the main site's "/////" rule */
+  .divider { margin: 4rem 0 0; text-align: center; font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  .divider::before, .divider::after { content: "/////"; letter-spacing: .05em; margin: 0 .75rem; }
+  .divider + section h2 { margin-top: 2rem; }
+
+  /* Policies */
+  details { border-bottom: 1px solid var(--rule); padding: .65rem 0; }
+  details:first-of-type { border-top: 1px solid var(--rule); }
+  summary { cursor: pointer; font-weight: 700; }
+  details[open] summary { margin-bottom: .4rem; }
+  details p, details ul { color: var(--text-2); }
+
+  footer { margin-top: 4rem; padding-top: 1rem; border-top: 1px solid var(--rule); font-size: .85rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <a class="back" href="/">..</a>
+  <p class="eyebrow">Teaching · Purdue University</p>
+  <h1>CS 348: Information Systems</h1>
+  <p class="subtitle">Spring 2023 · Department of Computer Science</p>
+  <ul class="meta-line">
+    <li><b>Instructor</b>Abdullah Al-Mamun</li>
+    <li><b>Faculty Mentor</b>Hisham Benotman</li>
+    <li><b>Lectures</b>Tue &amp; Thu, 4:30–5:45 pm</li>
+    <li><b>Enrollment</b>221 students</li>
+  </ul>
+  <nav id="toc" aria-label="On this page"><ol><li class="label">On this page</li></ol></nav>
+</header>
+
+<main>
+
+<!-- ============================ SECTION: My role ============================ -->
+<section id="role">
+  <h2 data-toc="My role">My role</h2>
+  <p class="lede">In Spring 2023, I taught CS 348, Purdue's undergraduate course on designing and using database systems. I was an instructor through the department's Graduate Teaching Fellowship, a highly selective program that offers distinguished TAs the opportunity to teach an undergraduate course.</p>
+
+  <ul class="stats">
+    <li><span class="value">221</span><span class="label">Students</span></li>
+    <li><span class="value">6</span><span class="label">Graduate TAs</span></li>
+    <li><span class="value">9</span><span class="label">Weekly PSO sections</span></li>
+    <li><span class="value">28</span><span class="label">Lectures</span></li>
+  </ul>
+
+  <div class="two-col">
+    <div>
+      <h3>Recognition</h3>
+      <ul>
+        <li>Graduate Teaching Award, Department of Computer Science, Spring 2023</li>
+        <li>Graduate Teaching Fellow, Fall 2022 – Spring 2023</li>
+        <li>Earlier, graduate TA for CS 348 and for CS 448: Introduction to Relational Database Systems</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Course format</h3>
+      <ul>
+        <li>Two 75-minute lectures a week, recorded for Brightspace, with in-class hotseat questions</li>
+        <li>Weekly PSO sessions led by the graduate TAs</li>
+        <li>Weekly quizzes, seven homework assignments, and two midterm exams</li>
+      </ul>
+    </div>
+  </div>
+  <!-- Optional: add a sentence on your teaching approach, student-evaluation highlights, or links to sample materials. -->
+</section>
+
+<!-- ============================ SECTION: Course map ============================ -->
+<section id="map">
+  <h2 data-toc="Course map">Course map</h2>
+  <p>The semester ran from January 10 to April 27, 2023, with 28 lectures in four parts. Each square is one class meeting; hover over or tap a square to see its date and topic.</p>
+
+  <!-- Course map: one column per week, in order Tue, Thu, week number. Colors: p1-p4 = parts, exam, off. -->
+  <div class="map" id="course-map" role="img" aria-label="Course map. Weeks 1 to 6: relational model and SQL, 11 lectures. Weeks 6 to 9: database design and storage, 6 lectures. Midterm 1 in week 9. Spring break in week 10. Week 11: transactions, 2 lectures. Weeks 12 to 16: beyond relational, 9 lectures. Midterm 2 in week 15.">
+    <span class="lbl">Tue</span><span class="lbl">Thu</span><span class="lbl"></span>
+    <span class="c p1" data-d="Tue, Jan 10" data-t="Introduction; relational databases"></span><span class="c p1" data-d="Thu, Jan 12" data-t="Relational databases and SQL"></span><span class="wk">1</span>
+    <span class="c p1" data-d="Tue, Jan 17" data-t="Advanced SQL: joins, aggregation, subqueries"></span><span class="c p1" data-d="Thu, Jan 19" data-t="Advanced SQL: joins, aggregation, subqueries"></span><span class="wk">2</span>
+    <span class="c p1" data-d="Tue, Jan 24" data-t="Advanced SQL: views, stored procedures, triggers, constraints"></span><span class="c p1" data-d="Thu, Jan 26" data-t="Advanced SQL: views, stored procedures, triggers, constraints"></span><span class="wk">3</span>
+    <span class="c p1" data-d="Tue, Jan 31" data-t="Advanced SQL: views, stored procedures, triggers, constraints"></span><span class="c p1" data-d="Thu, Feb 2" data-t="Relational algebra"></span><span class="wk">4</span>
+    <span class="c p1" data-d="Tue, Feb 7" data-t="Relational algebra"></span><span class="c p1" data-d="Thu, Feb 9" data-t="SQL in programming languages"></span><span class="wk">5</span>
+    <span class="c p1" data-d="Tue, Feb 14" data-t="Relational databases in the cloud"></span><span class="c p2" data-d="Thu, Feb 16" data-t="Database design: ER model"></span><span class="wk">6</span>
+    <span class="c p2" data-d="Tue, Feb 21" data-t="Database design: ER model"></span><span class="c p2" data-d="Thu, Feb 23" data-t="Database design: functional dependencies and normalization"></span><span class="wk">7</span>
+    <span class="c p2" data-d="Tue, Feb 28" data-t="Database design: functional dependencies and normalization"></span><span class="c p2" data-d="Thu, Mar 2" data-t="Storage and indexing"></span><span class="wk">8</span>
+    <span class="c p2" data-d="Tue, Mar 7" data-t="Storage and indexing"></span><span class="c exam" data-d="Thu, Mar 9" data-t="No class, in lieu of Midterm Exam 1 (Mon, Mar 6, 8:00–9:30 pm)">M1</span><span class="wk">9</span>
+    <span class="c off" data-d="Tue, Mar 14" data-t="No class (spring break)"></span><span class="c off" data-d="Thu, Mar 16" data-t="No class (spring break)"></span><span class="wk">10</span>
+    <span class="c p3" data-d="Tue, Mar 21" data-t="ACID, transactions, and isolation levels"></span><span class="c p3" data-d="Thu, Mar 23" data-t="ACID, transactions, and isolation levels"></span><span class="wk">11</span>
+    <span class="c p4" data-d="Tue, Mar 28" data-t="NoSQL and big data: introduction, Neo4j"></span><span class="c p4" data-d="Thu, Mar 30" data-t="NoSQL and big data: Neo4j"></span><span class="wk">12</span>
+    <span class="c p4" data-d="Tue, Apr 4" data-t="NoSQL and big data: MongoDB"></span><span class="c p4" data-d="Thu, Apr 6" data-t="NoSQL and big data: MongoDB"></span><span class="wk">13</span>
+    <span class="c p4" data-d="Tue, Apr 11" data-t="OLAP and data warehousing"></span><span class="c p4" data-d="Thu, Apr 13" data-t="OLAP and data warehousing"></span><span class="wk">14</span>
+    <span class="c p4" data-d="Tue, Apr 18" data-t="Cluster databases"></span><span class="c exam" data-d="Thu, Apr 20" data-t="Midterm Exam 2, 8:00–9:30 pm (no class)">M2</span><span class="wk">15</span>
+    <span class="c p4" data-d="Tue, Apr 25" data-t="Cluster databases"></span><span class="c p4" data-d="Thu, Apr 27" data-t="Review and summary"></span><span class="wk">16</span>
+  </div>
+
+  <ol class="legend" id="map-legend">
+    <li data-part="p1"><span class="sw p1"></span><div><div class="name">Relational model &amp; SQL</div><div class="meta">Weeks 1–6 · 11 lectures</div><div class="topics">Relational databases, SQL and advanced SQL, relational algebra, SQL in programming languages, relational databases in the cloud</div></div></li>
+    <li data-part="p2"><span class="sw p2"></span><div><div class="name">Database design &amp; storage</div><div class="meta">Weeks 6–9 · 6 lectures</div><div class="topics">ER model, functional dependencies and normalization, storage and indexing</div></div></li>
+    <li data-part="p3"><span class="sw p3"></span><div><div class="name">Transactions</div><div class="meta">Week 11 · 2 lectures</div><div class="topics">ACID, transactions, and isolation levels</div></div></li>
+    <li data-part="p4"><span class="sw p4"></span><div><div class="name">Beyond relational</div><div class="meta">Weeks 12–16 · 9 lectures</div><div class="topics">NoSQL with Neo4j and MongoDB, OLAP and data warehousing, cluster databases, review</div></div></li>
+  </ol>
+  <ul class="keys">
+    <li><span class="sw exam"></span>Midterm exam (one class canceled per exam)</li>
+    <li><span class="sw off"></span>No class (spring break)</li>
+  </ul>
+</section>
+
+<p class="divider" aria-hidden="true">Syllabus · Spring 2023</p>
+
+<!-- ============================ SECTION: Course overview ============================ -->
+<section id="overview">
+  <h2 data-toc="Overview">Course overview</h2>
+  <p>Introduction to fundamental concepts of database management using primarily the relational model. Schema design and refinement. Query languages. Database application development. Transactions and concurrency control. Overview of NoSQL databases, including graph and document stores. Overview of OLAP and data warehousing.</p>
+
+  <p class="note"><strong>CS 348 vs. CS 448.</strong> CS 348 focuses on the applied side of databases: how to design and use a database system in an application or for data analysis. CS 448 focuses on database system implementation: how to develop or maintain a database management system such as PostgreSQL or MySQL.</p>
+
+  <h3>Learning goals</h3>
+  <ol>
+    <li>Design effective database schemas that accurately model real-world information semantics.</li>
+    <li>Learn about the different data models (relational, graph, and document) used in different database systems.</li>
+    <li>Pose complex database queries in SQL and NoSQL languages, as well as in theoretical query languages.</li>
+    <li>Gain an introductory background in indexing.</li>
+    <li>Learn about transactions and concurrency control.</li>
+    <li>Differentiate between OLTP and OLAP applications.</li>
+  </ol>
+
+  <dl class="facts">
+    <div><dt>Prerequisites</dt><dd>CS 25100: Data Structures and Algorithms.</dd></div>
+    <div><dt>Textbook</dt><dd><cite>Database System Concepts</cite>, 7th edition, by Avi Silberschatz, Henry F. Korth, and S. Sudarshan. ISBN 978-1260084504 (paperback) or 978-0078022159 (eTextbook, hardcover, or loose-leaf). The <a href="https://www.db-book.com/">textbook website</a> has slides, answers to practice questions, and an SQL interpreter.</dd></div>
+    <div><dt>Lectures</dt><dd>Tue &amp; Thu, 4:30–5:45 pm, FRNY G140. Slides and lecture recordings were posted to Brightspace, generally by midnight on lecture days. All class content is subject to copyright and is for students' personal use in the course.</dd></div>
+    <div><dt>Course tools</dt><dd>Brightspace for course content and quizzes, Gradescope for PDF homework, and Campuswire for announcements and Q&amp;A (see <a href="#communication">Communication</a>).</dd></div>
+  </dl>
+</section>
+
+<!-- ============================ SECTION: Schedule ============================ -->
+<section id="schedule">
+  <h2 data-toc="Schedule">Schedule</h2>
+  <p class="schedule-note">As published to students (tentative and subject to change). Reading numbers are sections of <cite>Database System Concepts</cite>, 7th ed. Quizzes were posted on Brightspace weekly. All homework was due by 11:59 pm.</p>
+
+  <table class="schedule">
+    <caption class="sr-only">CS 348 Spring 2023 schedule by week</caption>
+    <thead>
+      <tr><th scope="col" class="wk">Wk</th><th scope="col">Date</th><th scope="col">Topic</th><th scope="col">Reading</th><th scope="col">Homework</th></tr>
+    </thead>
+    <tbody>
+      <tr class="p1"><th scope="rowgroup" rowspan="2" class="wk">1</th><td class="date">Tue, Jan 10</td><td class="topic">Introduction; relational databases</td><td class="read">1.1–1.3, 1.8, 1.9, 2.1–2.4, 3.1–3.4 (excl. 3.2.2)</td><td class="hw"></td></tr>
+      <tr class="p1"><td class="date">Thu, Jan 12</td><td class="topic">Relational databases and SQL</td><td class="read"></td><td class="hw"></td></tr>
+    </tbody>
+    <tbody>
+      <tr class="p1"><th scope="rowgroup" rowspan="2" class="wk">2</th><td class="date">Tue, Jan 17</td><td class="topic">Advanced SQL: joins, aggregation, subqueries</td><td class="read">4.1, 3.5, 3.6, 3.7, 3.8 (excl. 3.8.8)</td><td class="hw"><div class="hw-list"><span class="tag">HW1 assigned · Tue 1/17</span></div></td></tr>
+      <tr class="p1"><td class="date">Thu, Jan 19</td><td class="topic">Advanced SQL: joins, aggregation, subqueries</td><td class="read"></td><td class="hw"></td></tr>
+    </tbody>
+    <tbody>
+      <tr class="p1"><th scope="rowgroup" rowspan="2" class="wk">3</th><td class="date">Tue, Jan 24</td><td class="topic">Advanced SQL: views, stored procedures, triggers, constraints</td><td class="read">4.2, 5.2, 5.3, 3.9</td><td class="hw"></td></tr>
+      <tr class="p1"><td class="date">Thu, Jan 26</td><td class="topic">Advanced SQL: views, stored procedures, triggers, constraints</td><td class="read"></td><td class="hw"><div class="hw-list"><span class="tag due">HW1 due · Fri 1/27</span></div></td></tr>
+    </tbody>
+    <tbody>
+      <tr class="p1"><th scope="rowgroup" rowspan="2" class="wk">4</th><td class="date">Tue, Jan 31</td><td class="topic">Advanced SQL: views, stored procedures, triggers, constraints</td><td class="read"></td><td class="hw"><div class="hw-list"><span class="tag">HW2 assigned · Tue 1/31</span></div></td></tr>
+      <tr class="p1"><td class="date">Thu, Feb 2</td><td class="topic">Relational algebra</td><td class="read">2.6</td><td class="hw"></td></tr>
+    </tbody>
+    <tbody>
+      <tr class="p1"><th scope="rowgroup" rowspan="2" class="wk">5</th><td class="date">Tue, Feb 7</td><td class="topic">Relational algebra</td><td class="read"></td><td class="hw"></td></tr>
+      <tr class="p1"><td class="date">Thu, Feb 9</td><td class="topic">SQL in programming languages</td><td class="read"></td><td class="hw"><div class="hw-list"><span class="tag due">HW2 due · Fri 2/10</span></div></td></tr>
+    </tbody>
+    <tbody>
+      <tr class="p1"><th scope="rowgroup" rowspan="2" class="wk">6</th><td class="date">Tue, Feb 14</td><td class="topic">Relational databases in the cloud</td><td class="read"></td><td class="hw"><div class="hw-list"><span class="tag">HW3 assigned · Mon 2/13</span></div></td></tr>
+      <tr class="p2"><td class="date">Thu, Feb 16</td><td class="topic">Database design: ER model</td><td class="read">6.1–6.7, 6.9–6.10</td><td class="hw"></td></tr>
+    </tbody>
+    <tbody>
+      <tr class="p2"><th scope="rowgroup" rowspan="2" class="wk">7</th><td class="date">Tue, Feb 21</td><td class="topic">Database design: ER model</td><td class="read"></td><td class="hw"><div class="hw-list"><span class="tag due">HW3 due · Wed 2/22</span></div></td></tr>
+      <tr class="p2"><td class="date">Thu, Feb 23</td><td class="topic">Database design: functional dependencies and normalization</td><td class="read">7.1–7.4.1, 7.8–7.9</td><td class="hw"><div class="hw-list"><span class="tag">HW4 assigned · Thu 2/23</span></div></td></tr>
+    </tbody>
+    <tbody>
+      <tr class="p2"><th scope="rowgroup" rowspan="2" class="wk">8</th><td class="date">Tue, Feb 28</td><td class="topic">Database design: functional dependencies and normalization</td><td class="read"></td><td class="hw"></td></tr>
+      <tr class="p2"><td class="date">Thu, Mar 2</td><td class="topic">Storage and indexing</td><td class="read">12.1, 14.1–14.2.2, 14.2.4, 14.2.5, 14.3 (excl. 14.3.3 and 14.3.4), 14.5–14.7</td><td class="hw"><div class="hw-list"><span class="tag due">HW4 due · Thu 3/2</span></div></td></tr>
+    </tbody>
+    <tbody>
+      <tr class="exam"><th scope="rowgroup" rowspan="3" class="wk">9</th><td class="date">Mon, Mar 6</td><td class="topic" colspan="2"><span class="tag exam">Exam</span><strong>Midterm Exam 1</strong> · <span class="nw">8:00–9:30 pm</span> · LILY&nbsp;1105</td><td class="hw"></td></tr>
+      <tr class="p2"><td class="date">Tue, Mar 7</td><td class="topic">Storage and indexing</td><td class="read"></td><td class="hw"></td></tr>
+      <tr class="off"><td class="date">Thu, Mar 9</td><td class="topic">No class, in lieu of Monday's Midterm Exam 1</td><td class="read"></td><td class="hw"><div class="hw-list"><span class="tag">HW5 assigned · Thu 3/9</span></div></td></tr>
+    </tbody>
+    <tbody>
+      <tr class="off"><th scope="rowgroup" rowspan="2" class="wk">10</th><td class="date">Tue, Mar 14</td><td class="topic">No class (spring break)</td><td class="read"></td><td class="hw"></td></tr>
+      <tr class="off"><td class="date">Thu, Mar 16</td><td class="topic">No class (spring break)</td><td class="read"></td><td class="hw"></td></tr>
+    </tbody>
+    <tbody>
+      <tr class="p3"><th scope="rowgroup" rowspan="2" class="wk">11</th><td class="date">Tue, Mar 21</td><td class="topic">ACID, transactions, and isolation levels</td><td class="read">Ch. 17 (excl. 17.7 and 17.9), 18.1.1–18.1.3</td><td class="hw"></td></tr>
+      <tr class="p3"><td class="date">Thu, Mar 23</td><td class="topic">ACID, transactions, and isolation levels</td><td class="read"></td><td class="hw"><div class="hw-list"><span class="tag due">HW5 due · Thu 3/23</span><span class="tag">HW6 assigned · Fri 3/24</span></div></td></tr>
+    </tbody>
+    <tbody>
+      <tr class="p4"><th scope="rowgroup" rowspan="2" class="wk">12</th><td class="date">Tue, Mar 28</td><td class="topic">NoSQL and big data: introduction, Neo4j</td><td class="read"><a href="https://neo4j.com/docs/cypher-manual/current/introduction/">Neo4j Cypher manual</a></td><td class="hw"></td></tr>
+      <tr class="p4"><td class="date">Thu, Mar 30</td><td class="topic">NoSQL and big data: Neo4j</td><td class="read"></td><td class="hw"></td></tr>
+    </tbody>
+    <tbody>
+      <tr class="p4"><th scope="rowgroup" rowspan="2" class="wk">13</th><td class="date">Tue, Apr 4</td><td class="topic">NoSQL and big data: MongoDB</td><td class="read"><a href="https://www.mongodb.com/docs/manual/">MongoDB manual</a></td><td class="hw"><div class="hw-list"><span class="tag due">HW6 due · Tue 4/4</span></div></td></tr>
+      <tr class="p4"><td class="date">Thu, Apr 6</td><td class="topic">NoSQL and big data: MongoDB</td><td class="read"></td><td class="hw"><div class="hw-list"><span class="tag">HW7 assigned · Wed 4/5</span></div></td></tr>
+    </tbody>
+    <tbody>
+      <tr class="p4"><th scope="rowgroup" rowspan="2" class="wk">14</th><td class="date">Tue, Apr 11</td><td class="topic">OLAP and data warehousing</td><td class="read"></td><td class="hw"></td></tr>
+      <tr class="p4"><td class="date">Thu, Apr 13</td><td class="topic">OLAP and data warehousing</td><td class="read"></td><td class="hw"><div class="hw-list"><span class="tag due">HW7 due · Fri 4/14</span></div></td></tr>
+    </tbody>
+    <tbody>
+      <tr class="p4"><th scope="rowgroup" rowspan="2" class="wk">15</th><td class="date">Tue, Apr 18</td><td class="topic">Cluster databases</td><td class="read"></td><td class="hw"></td></tr>
+      <tr class="exam"><td class="date">Thu, Apr 20</td><td class="topic" colspan="2"><span class="tag exam">Exam</span><strong>Midterm Exam 2</strong> · <span class="nw">8:00–9:30 pm</span> · LILY&nbsp;1105 (no class)</td><td class="hw"></td></tr>
+    </tbody>
+    <tbody>
+      <tr class="p4"><th scope="rowgroup" rowspan="2" class="wk">16</th><td class="date">Tue, Apr 25</td><td class="topic">Cluster databases</td><td class="read"></td><td class="hw"></td></tr>
+      <tr class="p4"><td class="date">Thu, Apr 27</td><td class="topic">Review and summary</td><td class="read"></td><td class="hw"></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ============================ SECTION: Assessment and grading ============================ -->
+<section id="grading">
+  <h2 data-toc="Grading">Assessment and grading</h2>
+
+  <div class="two-col">
+    <div>
+      <h3>Final grade</h3>
+      <table class="weights">
+        <thead><tr><th scope="col">Component</th><th scope="col" class="num">Weight</th><th scope="col" class="bar"><span class="sr-only">Share of final grade</span></th></tr></thead>
+        <tbody>
+          <tr><td>Homework assignments<span class="sub">7 assignments, 6–7% each</span></td><td class="num">42%</td><td class="bar"><span class="track"><span class="fill" style="--w: 42%"></span></span></td></tr>
+          <tr><td>Midterm Exam 1</td><td class="num">25%</td><td class="bar"><span class="track"><span class="fill" style="--w: 25%"></span></span></td></tr>
+          <tr><td>Midterm Exam 2</td><td class="num">25%</td><td class="bar"><span class="track"><span class="fill" style="--w: 25%"></span></span></td></tr>
+          <tr><td>Brightspace quizzes</td><td class="num">5%</td><td class="bar"><span class="track"><span class="fill" style="--w: 5%"></span></span></td></tr>
+          <tr><td>In-class participation<span class="sub">Hotseat questions</span></td><td class="num">3%</td><td class="bar"><span class="track"><span class="fill" style="--w: 3%"></span></span></td></tr>
+        </tbody>
+        <tfoot><tr><td>Total</td><td class="num">100%</td><td class="bar"></td></tr></tfoot>
+      </table>
+    </div>
+    <div>
+      <h3>Grade scale</h3>
+      <table class="scale">
+        <caption class="sr-only">Letter grades and score ranges</caption>
+        <tbody>
+          <tr><td><b>A+</b>97.0–100</td><td><b>A</b>93.0–96.9</td><td><b>A−</b>90.0–92.9</td></tr>
+          <tr><td><b>B+</b>87.0–89.9</td><td><b>B</b>83.0–86.9</td><td><b>B−</b>80.0–82.9</td></tr>
+          <tr><td><b>C+</b>77.0–79.9</td><td><b>C</b>73.0–76.9</td><td><b>C−</b>70.0–72.9</td></tr>
+          <tr><td><b>D+</b>67.0–69.9</td><td><b>D</b>63.0–66.9</td><td><b>D−</b>60.0–62.9</td></tr>
+        </tbody>
+      </table>
+      <p class="small muted">A guideline during the semester; the exact scale was set at the end of the semester, and any change would be in students' favor.</p>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Homework</h3>
+      <p>Seven graded assignments, each with its own submission instructions. Written work was typed (LaTeX, Word, or similar) and submitted as PDF to Gradescope; code assignments such as SQL and MongoDB queries went to Brightspace.</p>
+      <ul>
+        <li>Late work was accepted up to 72 hours after the due date, with a 10% penalty per day.</li>
+        <li>Each student had five penalty-free extension days for the semester, at most three on any one assignment, since solutions were posted 72 hours after the due date.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Midterm exams</h3>
+      <ul>
+        <li><strong>Midterm 1:</strong> Mon, Mar 6, 2023, 8:00–9:30 pm, LILY&nbsp;1105</li>
+        <li><strong>Midterm 2:</strong> Thu, Apr 20, 2023, 8:00–9:30 pm, LILY&nbsp;1105</li>
+      </ul>
+      <p>Each exam covered about half of the course topics and could be open-book and/or open-note, with details announced the week before. Per university policy, one class was canceled for each evening exam. Make-up exams were given only for fully documented illnesses or other emergencies.</p>
+    </div>
+    <div class="card">
+      <h3>Quizzes</h3>
+      <p>A weekly Brightspace quiz in most weeks. Students had three attempts and the best one counted. Questions were multiple-choice, true/false, and multi-select; multi-select was scored as right answers minus wrong answers. Quizzes were auto-graded, so grades appeared immediately.</p>
+    </div>
+    <div class="card">
+      <h3>Hotseat questions</h3>
+      <p>Lectures included hotseat questions for students in the classroom. The lowest 25% of each student's hotseat scores were dropped to cover missed classes for medical or other reasons. Students with a DRC letter who could not answer in class contacted the instructor.</p>
+    </div>
+    <div class="card">
+      <h3>Regrade requests</h3>
+      <p>Submitted within three days of receiving graded work: on Gradescope for Gradescope assignments, or as a private Campuswire post for Brightspace assignments. A valid request shows that the student checked the posted solution carefully and explains clearly why a regrade is warranted. A regrade could also lower the grade.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ SECTION: Teaching team ============================ -->
+<section id="team">
+  <h2 data-toc="Teaching team">Teaching team</h2>
+  <div class="two-col">
+    <div>
+      <h3>Instructor</h3>
+      <ul class="plain">
+        <li>Abdullah Al-Mamun</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Graduate teaching assistants</h3>
+      <ul class="plain cols">
+        <li>Shubham Pandey</li>
+        <li>Bushra Ferdousi</li>
+        <li>Rishabh Chaddha</li>
+        <li>Tejas R. Lodaya</li>
+        <li>Yifeng Di</li>
+        <li>Tejas Prashanth</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>PSO sections</h3>
+  <p>Nine weekly PSO sessions, each led by a TA, began in the second week of the semester. All met in HAAS G50.</p>
+  <table class="pso">
+    <thead><tr><th scope="col">Section</th><th scope="col">Day</th><th scope="col">Time</th><th scope="col">TA</th></tr></thead>
+    <tbody>
+      <tr><td>P01</td><td>Wed</td><td>11:30 am – 12:20 pm</td><td>Rishabh Chaddha</td></tr>
+      <tr><td>P02</td><td>Thu</td><td>12:30 – 1:20 pm</td><td>Tejas Prashanth</td></tr>
+      <tr><td>P03</td><td>Fri</td><td>11:30 am – 12:20 pm</td><td>Shubham Pandey</td></tr>
+      <tr><td>P04</td><td>Thu</td><td>8:30 – 9:20 am</td><td>Shubham Pandey</td></tr>
+      <tr><td>P05</td><td>Wed</td><td>12:30 – 1:20 pm</td><td>Bushra Ferdousi</td></tr>
+      <tr><td>P06</td><td>Wed</td><td>1:30 – 2:20 pm</td><td>Bushra Ferdousi</td></tr>
+      <tr><td>P07</td><td>Fri</td><td>8:30 – 9:20 am</td><td>Tejas R. Lodaya</td></tr>
+      <tr><td>P08</td><td>Thu</td><td>11:30 am – 12:20 pm</td><td>Tejas Prashanth</td></tr>
+      <tr><td>P09</td><td>Fri</td><td>9:30 – 10:20 am</td><td>Tejas R. Lodaya</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ============================ SECTION: Communication ============================ -->
+<section id="communication">
+  <h2 data-toc="Communication">Communication</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Brightspace</h3>
+      <p>Most class content: the syllabus, the schedule, lecture slides, and links to lecture videos. Also weekly quizzes and submission of code assignments such as SQL and MongoDB queries.</p>
+    </div>
+    <div class="card">
+      <h3>Campuswire</h3>
+      <p>All announcements, plus questions and answers. Students could ask and answer anonymously; the instructor and TAs answered or endorsed student answers, aiming to respond within 24 hours.</p>
+    </div>
+    <div class="card">
+      <h3>Gradescope</h3>
+      <p>Submission of PDF homework, and regrade requests for those assignments.</p>
+    </div>
+    <div class="card">
+      <h3>Lead TAs</h3>
+      <p>Every assignment had a lead TA to contact about general issues other than regrades. Grading was shared among several TAs, all of whom could see private questions.</p>
+    </div>
+  </div>
+
+  <h3>Getting help, in order</h3>
+  <ol>
+    <li>Discuss the question with classmates. Asking and explaining builds understanding, but solutions are never shared.</li>
+    <li>Search Campuswire for a similar question before posting.</li>
+    <li>Post a public question on Campuswire. Public questions are prioritized because everyone benefits from the answer.</li>
+    <li>Attend instructor or TA office hours, or ask the TA in your PSO.</li>
+    <li>Post a private Campuswire question when it includes your own solution, as in regrade requests. Private questions reach the instructor and all TAs, which beats emailing one person.</li>
+    <li>Use email, or talk to the instructor or a TA after lecture or PSO, for private or sensitive matters only.</li>
+  </ol>
+</section>
+
+<!-- ============================ SECTION: Course policies ============================ -->
+<section id="policies">
+  <h2 data-toc="Policies">Course policies</h2>
+
+  
+
+  <details>
+    <summary>Academic integrity</summary>
+    <p>Academic integrity is a critical foundation for any form of higher education. Students were asked to read Purdue's <a href="https://www.purdue.edu/odos/osrr/academic-integrity/index.php">academic integrity guidance</a>. Posting homework questions or solutions (or any other part of an assignment) online was not allowed.</p>
+  </details>
+
+  <details>
+    <summary>Students with disabilities</summary>
+    <p>Purdue University strives to make learning experiences as accessible as possible. Students who anticipate or experience physical or academic barriers based on disability are encouraged to contact the <a href="https://www.purdue.edu/drc/">Disability Resource Center</a> (drc@purdue.edu, 765-494-1247), and are welcome to let the instructor know so that options can be discussed.</p>
+    <p>Students with a DRC recommendation letter who cannot take hotseat questions in class should contact the instructor. Students with exam-time extensions schedule their midterms with the DRC testing center a few weeks before each exam.</p>
+  </details>
+
+  <details>
+    <summary>Emergency preparation</summary>
+    <p>In the event of a major campus emergency, course requirements, deadlines, and grading percentages are subject to changes that may be necessitated by a revised semester calendar or other circumstances beyond the instructor's control. Relevant changes would be posted on Campuswire, the course schedule, and the syllabus.</p>
+  </details>
+
+  <details>
+    <summary>Mental health</summary>
+    <ul>
+      <li>For stress, anxiety, or feeling overwhelmed, WellTrack offers information and tools at any time.</li>
+      <li>For support and information about options and resources, the <a href="https://www.purdue.edu/odos/">Office of the Dean of Students</a> holds drop-in hours, Monday to Friday, 8 am to 5 pm.</li>
+      <li>For mental health services, contact <a href="https://www.purdue.edu/caps/">Counseling and Psychological Services (CAPS)</a> at 765-494-6995, during and after hours, on weekends and holidays, or visit the CAPS office on the second floor of the Purdue University Student Health Center (PUSH) during business hours.</li>
+    </ul>
+  </details>
+</section>
+
+</main>
+
+
+
+</div>
+
+<script>
+(() => {
+  // "On this page" menu, built from the sections that remain on the page.
+  const toc = document.querySelector('#toc ol');
+  const heads = document.querySelectorAll('main section[id] > h2');
+  heads.forEach((h) => {
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = '#' + h.parentElement.id;
+    a.textContent = h.dataset.toc || h.textContent;
+    li.appendChild(a);
+    toc.appendChild(li);
+  });
+  if (!heads.length) document.getElementById('toc').remove();
+
+  // Course map: tooltip per class meeting, and legend hover to isolate a part.
+  const map = document.getElementById('course-map');
+  if (!map) return;
+  const partNames = {};
+  document.querySelectorAll('#map-legend [data-part]').forEach((li) => {
+    partNames[li.dataset.part] = li.querySelector('.name').textContent;
+    li.addEventListener('pointerenter', () => { map.dataset.focus = li.dataset.part; });
+    li.addEventListener('pointerleave', () => { delete map.dataset.focus; });
+  });
+
+  const tip = document.createElement('div');
+  tip.className = 'tip';
+  tip.setAttribute('aria-hidden', 'true');
+  document.body.appendChild(tip);
+
+  const show = (cell) => {
+    const part = ['p1', 'p2', 'p3', 'p4'].find((p) => cell.classList.contains(p));
+    tip.replaceChildren();
+    const d = document.createElement('span');
+    d.className = 't-date';
+    d.textContent = cell.dataset.d;
+    tip.append(d, cell.dataset.t);
+    if (part && partNames[part]) {
+      const p = document.createElement('span');
+      p.className = 't-part';
+      p.textContent = partNames[part];
+      tip.append(p);
+    }
+    tip.style.left = '0px'; // measure at full width, not squeezed against the last position
+    const r = cell.getBoundingClientRect();
+    const w = tip.offsetWidth;
+    const left = Math.min(Math.max(r.left + r.width / 2 - w / 2, 8), document.documentElement.clientWidth - w - 8);
+    tip.style.left = (left + window.scrollX) + 'px';
+    tip.style.top = (r.top + window.scrollY - tip.offsetHeight - 8) + 'px';
+    tip.classList.add('on');
+  };
+  const hide = () => tip.classList.remove('on');
+
+  map.querySelectorAll('.c').forEach((cell) => {
+    cell.addEventListener('pointerenter', () => show(cell));
+    cell.addEventListener('pointerleave', hide);
+    cell.addEventListener('click', (e) => { e.stopPropagation(); show(cell); });
+  });
+  document.addEventListener('click', hide);
+  window.addEventListener('scroll', hide, { passive: true });
+})();
+</script>
+</body>
+</html>
