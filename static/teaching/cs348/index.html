@@ -128,7 +128,6 @@
   #toc ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; }
   #toc li { margin: 0; }
   #toc a:visited { color: var(--link); }
-  #toc .label { color: var(--muted); margin-right: .25rem; }
 
   /* ---------- My role ---------- */
   .lede { font-size: 1.08rem; }
@@ -259,6 +258,7 @@
   }
 
   /* Grading */
+  .weights { max-width: 640px; }
   .weights td.bar { width: 30%; vertical-align: middle; }
   .weights .track { display: block; height: 6px; border-radius: 3px; background: var(--rule); }
   .weights .fill { display: block; height: 100%; width: var(--w); border-radius: 3px; background: var(--text-2); }
@@ -289,7 +289,8 @@
   /* Team */
   .plain { list-style: none; padding: 0; margin: .4rem 0; }
   .plain li { margin: .2rem 0; }
-  .plain.cols { display: grid; grid-template-columns: 1fr 1fr; gap: .2rem 1.5rem; }
+  .plain.cols { display: grid; grid-template-columns: 1fr 1fr; gap: .2rem 1.5rem; max-width: 640px; }
+  @media (min-width: 640px) { .plain.cols { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
   .plain.cols li { margin: 0; }
   .pso { max-width: 640px; }
 
@@ -317,12 +318,14 @@
   <h1>CS 348: Information Systems</h1>
   <p class="subtitle">Spring 2023 · Department of Computer Science</p>
   <ul class="meta-line">
-    <li><b>Instructor</b>Abdullah Al-Mamun</li>
-    <li><b>Faculty Mentor</b>Hisham R. Benotman</li>
-    <li><b>Lectures</b>Tue &amp; Thu, 4:30–5:45 pm</li>
-    <li><b>Enrollment</b>221 students</li>
+    <li><b>Instructor:</b>Abdullah Al-Mamun</li>
+    <li><b>Office:</b>HAAS 148</li>
+    <li><b>Office hours (in-person):</b>Wednesdays 3:00 pm to 5:00 pm</li>
+     <li><b>Lectures:</b>Tue &amp; Thu, 4:30–5:45 pm, FRNY G140</li>   
+    <li><b>Faculty Mentor:</b>Hisham R. Benotman</li>
+   
   </ul>
-  <nav id="toc" aria-label="On this page"><ol><li class="label">On this page</li></ol></nav>
+  <nav id="toc" aria-label="On this page"><ol></ol></nav>
 </header>
 
 <main>
@@ -345,13 +348,12 @@
       <ul>
         <li>Graduate Teaching Award, Department of Computer Science, Spring 2023</li>
         <li>Graduate Teaching Fellow, Fall 2022 – Spring 2023</li>
-        <li>Earlier, graduate TA for CS 348 and for CS 448: Introduction to Relational Database Systems</li>
       </ul>
     </div>
     <div>
       <h3>Course format</h3>
       <ul>
-        <li>Two 75-minute lectures a week, recorded for Brightspace, with in-class hotseat questions</li>
+        <li>Two 75-minute in-person lectures a week, recorded live for Brightspace, with in-class hotseat questions</li>
         <li>Weekly PSO sessions led by the graduate TAs</li>
         <li>Weekly quizzes, seven homework assignments, and two midterm exams</li>
       </ul>
@@ -405,7 +407,7 @@
   <h2 data-toc="Overview">Course overview</h2>
   <p>Introduction to fundamental concepts of database management using primarily the relational model. Schema design and refinement. Query languages. Database application development. Transactions and concurrency control. Overview of NoSQL databases, including graph and document stores. Overview of OLAP and data warehousing.</p>
 
-  <p class="note"><strong>CS 348 vs. CS 448.</strong> CS 348 focuses on the applied side of databases: how to design and use a database system in an application or for data analysis. CS 448 focuses on database system implementation: how to develop or maintain a database management system such as PostgreSQL or MySQL.</p>
+  <!-- <p class="note"><strong>CS 348 vs. CS 448.</strong> CS 348 focuses on the applied side of databases: how to design and use a database system in an application or for data analysis. CS 448 focuses on database system implementation: how to develop or maintain a database management system such as PostgreSQL or MySQL.</p> -->
 
   <h3>Learning goals</h3>
   <ol>
@@ -507,34 +509,28 @@
 <section id="grading">
   <h2 data-toc="Grading">Assessment and grading</h2>
 
-  <div class="two-col">
-    <div>
-      <h3>Final grade</h3>
-      <table class="weights">
-        <thead><tr><th scope="col">Component</th><th scope="col" class="num">Weight</th><th scope="col" class="bar"><span class="sr-only">Share of final grade</span></th></tr></thead>
-        <tbody>
-          <tr><td>Homework assignments<span class="sub">7 assignments, 6–7% each</span></td><td class="num">42%</td><td class="bar"><span class="track"><span class="fill" style="--w: 42%"></span></span></td></tr>
-          <tr><td>Midterm Exam 1</td><td class="num">25%</td><td class="bar"><span class="track"><span class="fill" style="--w: 25%"></span></span></td></tr>
-          <tr><td>Midterm Exam 2</td><td class="num">25%</td><td class="bar"><span class="track"><span class="fill" style="--w: 25%"></span></span></td></tr>
-          <tr><td>Brightspace quizzes</td><td class="num">5%</td><td class="bar"><span class="track"><span class="fill" style="--w: 5%"></span></span></td></tr>
-          <tr><td>In-class participation<span class="sub">Hotseat questions</span></td><td class="num">3%</td><td class="bar"><span class="track"><span class="fill" style="--w: 3%"></span></span></td></tr>
-        </tbody>
-        <tfoot><tr><td>Total</td><td class="num">100%</td><td class="bar"></td></tr></tfoot>
-      </table>
-    </div>
-    <div>
-      <h3>Grade scale</h3>
-      <table class="scale">
-        <caption class="sr-only">Letter grades and score ranges</caption>
-        <tbody>
-          <tr><td><b>A+</b>97.0–100</td><td><b>A</b>93.0–96.9</td><td><b>A−</b>90.0–92.9</td></tr>
-          <tr><td><b>B+</b>87.0–89.9</td><td><b>B</b>83.0–86.9</td><td><b>B−</b>80.0–82.9</td></tr>
-          <tr><td><b>C+</b>77.0–79.9</td><td><b>C</b>73.0–76.9</td><td><b>C−</b>70.0–72.9</td></tr>
-          <tr><td><b>D+</b>67.0–69.9</td><td><b>D</b>63.0–66.9</td><td><b>D−</b>60.0–62.9</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
+  <table class="weights">
+    <thead><tr><th scope="col">Component</th><th scope="col" class="num">Weight</th><th scope="col" class="bar"><span class="sr-only">Share of final grade</span></th></tr></thead>
+    <tbody>
+      <tr><td>Homework assignments<span class="sub">7 assignments, 6–7% each</span></td><td class="num">42%</td><td class="bar"><span class="track"><span class="fill" style="--w: 42%"></span></span></td></tr>
+      <tr><td>Midterm Exam 1</td><td class="num">25%</td><td class="bar"><span class="track"><span class="fill" style="--w: 25%"></span></span></td></tr>
+      <tr><td>Midterm Exam 2</td><td class="num">25%</td><td class="bar"><span class="track"><span class="fill" style="--w: 25%"></span></span></td></tr>
+      <tr><td>Brightspace quizzes</td><td class="num">5%</td><td class="bar"><span class="track"><span class="fill" style="--w: 5%"></span></span></td></tr>
+      <tr><td>In-class participation<span class="sub">Hotseat questions</span></td><td class="num">3%</td><td class="bar"><span class="track"><span class="fill" style="--w: 3%"></span></span></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td class="num">100%</td><td class="bar"></td></tr></tfoot>
+  </table>
+
+  <!-- <h3>Grade scale</h3>
+  <table class="scale">
+    <caption class="sr-only">Letter grades and score ranges</caption>
+    <tbody>
+      <tr><td><b>A+</b>97.0–100</td><td><b>A</b>93.0–96.9</td><td><b>A−</b>90.0–92.9</td></tr>
+      <tr><td><b>B+</b>87.0–89.9</td><td><b>B</b>83.0–86.9</td><td><b>B−</b>80.0–82.9</td></tr>
+      <tr><td><b>C+</b>77.0–79.9</td><td><b>C</b>73.0–76.9</td><td><b>C−</b>70.0–72.9</td></tr>
+      <tr><td><b>D+</b>67.0–69.9</td><td><b>D</b>63.0–66.9</td><td><b>D−</b>60.0–62.9</td></tr>
+    </tbody>
+  </table> -->
 
   <div class="cards">
     <div class="card">
@@ -570,29 +566,24 @@
 
 <!-- ============================ SECTION: Teaching team ============================ -->
 <section id="team">
-  <h2 data-toc="Teaching team">Teaching team</h2>
-  <div class="two-col">
-    <div>
-      <h3>Instructor</h3>
-      <ul class="plain">
-        <li>Abdullah Al-Mamun</li>
-      </ul>
-    </div>
-    <div>
-      <h3>Graduate teaching assistants</h3>
-      <ul class="plain cols">
-        <li>Shubham Pandey</li>
-        <li>Bushra Ferdousi</li>
-        <li>Rishabh Chaddha</li>
-        <li>Tejas R. Lodaya</li>
-        <li>Yifeng Di</li>
-        <li>Tejas Prashanth</li>
-      </ul>
-    </div>
-  </div>
+  <h2 data-toc="Teaching staff">Teaching staff</h2>
+  <!-- <h3>Instructor</h3>
+  <ul class="plain">
+    <li>Abdullah Al-Mamun</li>
+  </ul> -->
+
+  <h3>Graduate teaching assistants</h3>
+  <ul class="plain cols">
+    <li>Shubham Pandey</li>
+    <li>Bushra Ferdousi</li>
+    <li>Rishabh Chaddha</li>
+    <li>Tejas R. Lodaya</li>
+    <li>Yifeng Di</li>
+    <li>Tejas Prashanth</li>
+  </ul>
 
   <h3>PSO sections</h3>
-  <p>Nine weekly PSO sessions, each led by a TA, began in the second week of the semester. All met in HAAS G50.</p>
+  <!-- <p>Nine weekly PSO sessions, each led by a TA, began in the second week of the semester. All met in HAAS G50.</p> -->
   <table class="pso">
     <thead><tr><th scope="col">Section</th><th scope="col">Day</th><th scope="col">Time</th><th scope="col">TA</th></tr></thead>
     <tbody>
@@ -638,7 +629,6 @@
     <li>Post a public question on Campuswire. Public questions are prioritized because everyone benefits from the answer.</li>
     <li>Attend instructor or TA office hours, or ask the TA in your PSO.</li>
     <li>Post a private Campuswire question when it includes your own solution, as in regrade requests. Private questions reach the instructor and all TAs, which beats emailing one person.</li>
-    <li>Use email, or talk to the instructor or a TA after lecture or PSO, for private or sensitive matters only.</li>
   </ol>
 </section>
 
