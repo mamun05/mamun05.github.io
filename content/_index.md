@@ -20,7 +20,7 @@ mamuna[at]purdue[dot]edu
 
 ## Research
 
-I specialize in **Machine Learning for Database Systems**, where I build ML-enhanced database system components that are *instance-optimized*, i.e., custom-tailored to specific data and query workloads. In particular, I develop learned index structures that improve the efficiency of query processing over spatial and vector data. I am also expanding my research toward instance-optimized **Database Systems for AI Agents**. The systems I envision are tailored to specific AI agents that explore speculative branches through high-frequency forking. These systems aim to process agent-issued queries efficiently while keeping agent-modified data trustworthy.
+I specialize in **Machine Learning for Database Systems**, where I build ML-enhanced system components that are *instance-optimized*, i.e., custom-tailored to specific data and query workloads. In particular, I develop learned index structures that improve the efficiency of query processing over spatial and vector data. I am also expanding my research toward instance-optimized **Database Systems for AI Agents**. The systems I envision are tailored to specific AI agents that explore speculative branches through high-frequency forking. These systems aim to process agent-issued queries efficiently while keeping agent-modified data trustworthy.
 
 
 
@@ -64,7 +64,7 @@ I specialize in **Machine Learning for Database Systems**, where I build ML-enha
 
 **Instructor**
 
-CS 348: Information Systems, Spring 2023, [[Course Page]](teaching/cs348/) 
+CS 348: Information Systems [[Course Page]](teaching/cs348/), Spring 2023 
 - I became an instructor through a highly selective teaching fellowship program that offers distinguished TAs the opportunity to teach an undergraduate course. My faculty mentor was Professor [Hisham R. Benotman](https://www.cs.purdue.edu/people/faculty/hbenotma.html).
 - Class size: 221 students
 - Teaching staff: 6 GTAs
