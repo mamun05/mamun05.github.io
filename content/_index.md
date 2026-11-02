@@ -64,8 +64,8 @@ I specialize in **Machine Learning for Database Systems**, where I build ML-enha
 
 **Instructor**
 
-CS 348: Information Systems [[Course Page]](teaching/cs348/), Spring 2023 
-- I became an instructor through a highly selective teaching fellowship program that offers distinguished TAs the opportunity to teach an undergraduate course. My faculty mentor was Professor [Hisham R. Benotman](https://www.cs.purdue.edu/people/faculty/hbenotma.html).
+CS 348: Information Systems [[Course Page]](teaching/cs348/)
+- In Spring 2023, I became an instructor through a highly selective teaching fellowship program that offers distinguished TAs the opportunity to teach an undergraduate course. My faculty mentor was Professor [Hisham R. Benotman](https://www.cs.purdue.edu/people/faculty/hbenotma.html).
 - Class size: 221 students
 - Teaching staff: 6 GTAs
 
