@@ -83,7 +83,7 @@ CS 348: Information Systems [[Course Page]](teaching/cs348/)
 - [ACM SIGSPATIAL (60 minutes)](https://sigspatial2020.sigspatial.org/program/) [[Slides & Video]](https://www.cs.purdue.edu/homes/aref/learned-indexes-tutorial.html): 2020
 
 **Invited Talk**
-- University of Maryland Institute for Advanced Computer Studies (UMIACS) Lecture Series (60 minutes) [[Slides & Video]](https://spatialhandling-lectureseries.umiacs.io/talks/l0401/): 2021 (Host: Professor [Hanan Samet](https://www.cs.umd.edu/~hjs/))
+- Institute for Advanced Computer Studies (UMIACS) Lecture Series, University of Maryland (60 minutes) [[Slides & Video]](https://spatialhandling-lectureseries.umiacs.io/talks/l0401/): 2021 (Host: Professor [Hanan Samet](https://www.cs.umd.edu/~hjs/))
 
 **Workshop/Conference Presentations**
 - [GeoAI@SIGSPATIAL (~15 minutes)](https://events.ornl.gov/acmsigspatial-geoai2025/event-agenda/) [[Slides]](GeoAI_25_Slides_Final.pdf): 2025
